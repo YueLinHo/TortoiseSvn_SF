@@ -1,0 +1,18 @@
+[submodule "ext/Subversion"]
+	path = ext/Subversion
+	url = git://git.apache.org/subversion.git
+[submodule "ext/apr"]
+	path = ext/apr
+	url = git://git.apache.org/apr.git
+[submodule "ext/apr-util"]
+	path = ext/apr-util
+	url = git://git.apache.org/apr-util.git
+[submodule "ext/serf"]
+	path = ext/serf
+	url = https://github.com/YueLinHo/serf.git
+[submodule "ext/snarl"]
+	path = ext/snarl
+	url = https://github.com/YueLinHo/snarl.git
+[submodule "ext/CrashServer/external/zlib"]
+	path = ext/CrashServer/external/zlib
+	url = https://github.com/madler/zlib.git
