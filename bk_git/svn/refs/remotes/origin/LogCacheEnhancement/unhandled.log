@@ -1,0 +1,606 @@
+r9628
+r9629
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/HuffmanOutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/HuffmanOutStream.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/RepositoryInfo.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/RepositoryInfo.h svn:eol-style native
+r9630
+r9641
+r9642
+  +dir_prop: branches/LogCacheEnhancement/ext svn:externals Subversion%20-r25269%20https://svn.collab.net/repos/svn/trunk/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.3/%0A
+r9653
+  -empty_dir: branches/LogCacheEnhancement/src/LogCache/HuffmanOutStream.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/LogCache/HuffmanOutStream.h
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/HuffmanBase.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/HuffmanBase.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/HuffmanDecoder.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/HuffmanDecoder.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/HuffmanEncoder.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/LogCache/HuffmanEncoder.h svn:eol-style native
+r9689
+r9690
+r9691
+r9692
+r9698
+r9858
+r9859
+r9860
+r9863
+r9864
+r9865
+r9867
+r9868
+r9869
+r9870
+r9871
+r9872
+r9873
+r9874
+r9875
+r9876
+r9877
+r9878
+r9879
+r9880
+r9905
+r9906
+r9908
+  +dir_prop: branches/LogCacheEnhancement svnmerge-integrated /trunk:1-9628
+r9911
+  -empty_dir: branches/LogCacheEnhancement/ext/build/open.c
+  -empty_dir: branches/LogCacheEnhancement/ext/build/readwrite.c
+  -empty_dir: branches/LogCacheEnhancement/ext/build/sendrecv.c
+  -empty_dir: branches/LogCacheEnhancement/ext/svn-win32-libintl
+  -empty_dir: branches/LogCacheEnhancement/ext/svn-x64-libintl
+  -empty_dir: branches/LogCacheEnhancement/src/Utils/myspell
+  +dir_prop: branches/LogCacheEnhancement svn:ignore bin%0Aobj%0Awww%0ADesktop.ini%0ATools%0Atools%0AMYBUILD%0Aversion.build%0Adefault.user%0Adefault.build.user%0A
+  +dir_prop: branches/LogCacheEnhancement svnmerge-integrated /trunk:1-9628%2C9631-9907
+  +dir_prop: branches/LogCacheEnhancement/doc/test svn:ignore temp%0ADocPath.txt%0A
+  +dir_prop: branches/LogCacheEnhancement/ext svn:externals Subversion%20-r25523%20https://svn.collab.net/repos/svn/trunk/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.9/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.8/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.3/%0A
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseShell svn:ignore deregister.reg%0Aregister.reg%0Aregistermbcs.reg%0Aregisterrelease.reg%0Aresource.aps%0A*.user%0A*.aps%0A
+  +file_prop: branches/LogCacheEnhancement/doc/test/MakeTest.bat svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/test/subwcrev1.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/test/subwcrev2.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/test/subwcrev3.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/README.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/diff-0.14.4.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/libintl3-win32/bin/intl3_tsvn.dll svn:mime-type application/x-msdownload
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/libintl3-win32/inc/libintl.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/libintl3-win32/lib/intl3_tsvn.exp svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/libintl3-win32/lib/intl3_tsvn.lib svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/libintl3-x64/bin/intl3_tsvn.dll svn:mime-type application/x-msdownload
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/libintl3-x64/inc/libintl.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/libintl3-x64/lib/intl3_tsvn.exp svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/ext/libintl/libintl3-x64/lib/intl3_tsvn.lib svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/src/SVN/SVNDataObject.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SVN/SVNDataObject.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/Test.bat svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/testCOM.js svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseIDiff/fittogether.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/include/CyrusSASL_License.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/include/autolist.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/include/readme.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseShell/TortoiseStub.c svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseShell/TortoiseStub.def svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseShell/TortoiseStub.rc svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseShell/TortoiseStub.vcproj svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/Debug.c svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/Debug.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/Makefile.am svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/README svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/affentry.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/affixmgr.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/csutil.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/dictmgr.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/hashmgr.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/hunspell.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/hunspell.dsp svn:eol-style CRLF
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/hunspell.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/license.hunspell svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/license.myspell svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/makefile.mk svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/mythes.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/suggestmgr.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/hunspell/utf_info.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/CharacterSet.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/Decoration.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/Decoration.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/LexGAP.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/LexPLM.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/LexProgress.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/PositionCache.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/PositionCache.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/RunStyles.cxx svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/scintilla/src/RunStyles.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/www/amazon.uk.gif svn:mime-type image/gif
+r9917
+r9918
+r10073
+  -empty_dir: branches/LogCacheEnhancement/ext/build/utf.c
+  -empty_dir: branches/LogCacheEnhancement/src/LogCache/CopyFollowingLogBatchIterator.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/LogCache/CopyFollowingLogBatchIterator.h
+  -empty_dir: branches/LogCacheEnhancement/src/LogCache/LogBatchIteratorBase.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/LogCache/LogBatchIteratorBase.h
+  -empty_dir: branches/LogCacheEnhancement/src/LogCache/StrictLogBatchIterator.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/LogCache/StrictLogBatchIterator.h
+  +dir_prop: branches/LogCacheEnhancement svnmerge-integrated /trunk:1-9628%2C9631-9907%2C9912-10072
+  +dir_prop: branches/LogCacheEnhancement/doc/Aspell svn:ignore *.log%0ATemp.pws%0A
+  +dir_prop: branches/LogCacheEnhancement/ext svn:externals Subversion%20-r25655%20https://svn.collab.net/repos/svn/trunk/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.9/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.8/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.3/%0Aserf%20http://serf.googlecode.com/svn/tags/0.1.2/%0A
+  +file_prop: branches/LogCacheEnhancement/doc/Aspell.bat svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/Aspell/Readme.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/Aspell/TortoiseSVN.tmpl.pws svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/Aspell/de.pws svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/Aspell/en.pws svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/ext/build/serf.build svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/ext/build/serf.build svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/src/Resources/revgraph_split.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/revgraph_tag.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/SVN/SVNLogHelper.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SVN/SVNLogHelper.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/LogDlgHelper.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/LogDlgHelper.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/test/BuildMergeHistoryRepo.bat svn:eol-style native
+r10561
+r10562
+r10564
+r10567
+  -empty_dir: branches/LogCacheEnhancement/doc/Aspell.bat
+  -empty_dir: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_appa.xml
+  -empty_dir: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_ch00.xml
+  -empty_dir: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_ch01.xml
+  -empty_dir: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_ch02.xml
+  -empty_dir: branches/LogCacheEnhancement/src/Resources/cancel-normal.bmp
+  -empty_dir: branches/LogCacheEnhancement/src/Resources/cancel-pressed.bmp
+  -empty_dir: branches/LogCacheEnhancement/src/Resources/logfilter.bmp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetDialogs.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetDialogs.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetHooks.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetHooks.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetHooksAdv.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetHooksAdv.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetLookAndFeelPage.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetLookAndFeelPage.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetMainPage.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetMainPage.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetMisc.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetMisc.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetOverlayIcons.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetOverlayIcons.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetOverlayPage.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetOverlayPage.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetProgsAdvDlg.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetProgsAdvDlg.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetProxyPage.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetProxyPage.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetSavedDataPage.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SetSavedDataPage.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/Settings.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/Settings.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsColors.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsColors.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsProgsDiff.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsProgsDiff.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsProgsMerge.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsProgsMerge.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsProgsUniDiff.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsProgsUniDiff.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsTBlame.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/SettingsTBlame.h
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/ToolAssocDlg.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/TortoiseProc/ToolAssocDlg.h
+  -empty_dir: branches/LogCacheEnhancement/src/Utils/MiscUI/InsertControl.cpp
+  -empty_dir: branches/LogCacheEnhancement/src/Utils/MiscUI/InsertControl.h
+  -empty_dir: branches/LogCacheEnhancement/test/blame/Test.blame.xml
+  -empty_dir: branches/LogCacheEnhancement/test/blame/Test.log.bin
+  +dir_prop: branches/LogCacheEnhancement svnmerge-integrated /trunk:1-9628%2C9631-9907%2C9909-10563
+  +dir_prop: branches/LogCacheEnhancement/Languages svn:ignore *.prj%0A*.dll%0A*.aps%0Abin%0Azipfiles%0A*.poedit%0A*.mo%0Aproduct.nsh%0Astatusreport.txt%0ALanguagePack.nsi%0Atest.bat%0A*.user%0ADebug%0ARelease%0A
+  +dir_prop: branches/LogCacheEnhancement/ext svn:externals Subversion%20-r26443%20https://svn.collab.net/repos/svn/trunk/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.9/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.8/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.4/%0Aserf%20http://serf.googlecode.com/svn/tags/0.1.2/%0A
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26task_id%3D%25BUGID%25
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands tsvn:logminsize 10
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands tsvn:projectlanguage 1033
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26task_id%3D%25BUGID%25
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings tsvn:logminsize 10
+  +dir_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings tsvn:projectlanguage 1033
+  +file_prop: branches/LogCacheEnhancement/Languages/Tortoise_mk.po svn:eol-style LF
+  +file_prop: branches/LogCacheEnhancement/Languages/Tortoise_pt_PT.po svn:eol-style LF
+  +file_prop: branches/LogCacheEnhancement/doc/Aspell/removetags.xsl svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/Aspell/removetags.xsl svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ActionAddedIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ActionDeletedIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ActionModifiedIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ActionReplacedIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/AddedIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Authenticate.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/BlameDialog.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Bullet.gif svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Changelist.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Checkout.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Commit.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/CommitProgress.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/CommitSpellcheck.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/CompareRevisions.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ConflictIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ContextMenuDirControl.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ContextMenuDirNoControl.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ContextMenuFileControl.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ContextMenuFileNoControl.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Copy.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/CreatePatch.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/DeletedIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ExplorerFileMenuFileShortcut.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ExportURL.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/GetLock.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Import.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/InSubVersionIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/LockedIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/LogContextMenu.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/LogContextMenu1.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/LogContextMenu2.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/LogMessages.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Merge.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/MergeOnePane.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/MergeOpen.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/MergePatchWindow.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/MergeSettingsColors.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/MergeSettingsGeneral.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/MergeThreePane.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/MergeToolbar.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/MergeTwoPane.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ModifiedIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Overlays.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Properties.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/PropertyAdd.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/PropertyList.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ReadOnlyIcon.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Relocate.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/RepoStatus.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Repobrowser.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Revert.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/RevisionGraph.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/RightDragMenu.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsBlame.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsColors.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsContext.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsDialog.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsDialog2.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsHookEdit.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsHooks.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsMain.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsOverlay.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsOverlayChooser.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsProgs.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsProgsAdv.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsProxy.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/SettingsSavedData.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/StatsByAuthPie.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/StatsByAuthor.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/StatsByDate.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/Switch.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/TortoiseBlame.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/TortoiseIDiff.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/UpdateFinished.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/background.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/backgrounddraft.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/caution.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/caution_sml.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ch02dia1.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ch02dia2.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ch02dia3.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ch02dia4.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ch02dia5.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ch02dia6.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/ch02dia7.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/important.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/important_sml.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/link.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/mergeprinciple.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/note.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/svn_move.swf svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/tip.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/tip_sml.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/tortoisemerge_logo_hor468x64.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/tortoisesvn_logo_hor468x64.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/upgradecheck.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/warning.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/warning_sml.png svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_app_shortcuts.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_app_shortcuts.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_basics.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_basics.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_conflicts.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_conflicts.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_controls.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_controls.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_open.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_open.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_settings.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_settings.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_views.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_dug_views.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_introduction.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_introduction.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_preface.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseMerge/tme_preface.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseSVN/tsvn_app_internals.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/source/en/TortoiseSVN/tsvn_app_internals.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/doc/test/footnote1.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/test/footnote2.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/doc/test/footnote3.txt svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Resources/AddBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/CFMBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/CommitBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/DelunversionedBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/LineEndingCR.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/LineEndingCRLF.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/LineEndingLF.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/LockBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/ResolveBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/RevertBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/UnlockBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/cancel-normal.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/cancel-pressed.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/filteredit.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/logfilter.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/SubWCRevCOM.vcproj svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/UnicodeUtils.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/UnicodeUtils.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseIDiff/AboutDlg.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseIDiff/AboutDlg.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseIDiff/blend.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseMerge/DiffStates.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseMerge/ViewData.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseMerge/ViewData.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/AboutCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/AboutCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/AddCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/AddCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/BlameCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/BlameCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CatCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CatCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CheckoutCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CheckoutCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CleanupCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CleanupCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/Command.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/Command.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CommitCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CommitCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/ConflictEditorCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CopyCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CopyCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CrashCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CreatePatchCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CreatePatchCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/CreateRepositoryCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DelUnversionedCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DelUnversionedCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DiffCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DiffCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DropCopyAddCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DropCopyAddCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DropCopyCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DropCopyCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DropExportCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DropExportCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DropMoveCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/DropMoveCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/ExportCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/ExportCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/HelpCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/IgnoreCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/IgnoreCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/ImportCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/ImportCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/LockCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/LockCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/LogCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/LogCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/MergeCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/MergeCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/PropertiesCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/PropertiesCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RTFMCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RebuildIconCacheCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RebuildIconCacheCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RelocateCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RelocateCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RemoveCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RemoveCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RenameCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RenameCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RepoStatusCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RepoStatusCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RepositoryBrowserCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RepositoryBrowserCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/ResolveCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/ResolveCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RevertCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RevertCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RevisionGraphCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/RevisionGraphCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/SettingsCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/SettingsCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/SwitchCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/SwitchCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UnIgnoreCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UnIgnoreCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UnLockCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UnLockCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UpdateCheckCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UpdateCheckCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UpdateCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UpdateCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UrlDiffCommand.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Commands/UrlDiffCommand.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/ConflictResolveDlg.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/ConflictResolveDlg.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetDialogs.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetDialogs.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetHooks.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetHooks.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetHooksAdv.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetHooksAdv.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetLookAndFeelPage.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetLookAndFeelPage.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetMainPage.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetMainPage.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetMisc.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetMisc.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetOverlayIcons.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetOverlayIcons.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetOverlayPage.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetOverlayPage.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetProgsAdvDlg.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetProgsAdvDlg.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetProxyPage.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetProxyPage.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetSavedDataPage.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SetSavedDataPage.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/Settings.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/Settings.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsColors.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsColors.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsProgsDiff.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsProgsDiff.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsProgsMerge.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsProgsMerge.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsProgsUniDiff.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsProgsUniDiff.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsPropPage.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsPropPage.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsTBlame.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/SettingsTBlame.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/ToolAssocDlg.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseProc/Settings/ToolAssocDlg.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/License.rtf svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/License.rtf svn:mime-type text/richtext
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/SubWCRev.wxs svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/SubWCRev.wxs svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/TortoiseDiff.wxs svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/TortoiseDiff.wxs svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/WixUI_Simplest.wxs svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/WixUI_Simplest.wxs svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/include/Bannerstatic.jpg svn:mime-type image/jpeg
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/include/Dialogstatic.jpg svn:mime-type image/jpeg
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/staticsetup.build svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseSVNSetup/staticsetup.build svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/src/Utils/MiscUI/FilterEdit.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/MiscUI/FilterEdit.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/MiscUI/filterEdit.jpg svn:mime-type image/jpeg
+  +file_prop: branches/LogCacheEnhancement/src/Utils/MiscUI/hyperlink_base.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/Utils/MiscUI/hyperlink_base.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/test/blame/Test.blame.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/test/blame/Test2.blame.xml svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/test/blame/Test2.blame.xml svn:mime-type text/xml
+  +file_prop: branches/LogCacheEnhancement/test/blame/Test2.log.bin svn:mime-type application/octet-stream
+  +file_prop: branches/LogCacheEnhancement/www/images/ChangeList.png svn:mime-type image/png
+  +file_prop: branches/LogCacheEnhancement/www/images/LogWithGrayedMerge.png svn:mime-type image/png
+  +file_prop: branches/LogCacheEnhancement/www/images/LogWithMerge.png svn:mime-type image/png
+  +file_prop: branches/LogCacheEnhancement/www/images/LogWithoutMerge.png svn:mime-type image/png
+  +file_prop: branches/LogCacheEnhancement/www/images/RepositoryBrowser.png svn:mime-type image/png
+  +file_prop: branches/LogCacheEnhancement/www/tsvn_1.5_releasenotes.html svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/www/tsvn_1.5_releasenotes.html svn:mime-type text/html
+r10601
+r10623
+r10624
+r10625
+r10626
+r10701
+r10702
+r10703
+r10705
+r10706
+r10817
+  -empty_dir: branches/LogCacheEnhancement/src/SubWCRev/SubWCRev.idl
+  -empty_dir: branches/LogCacheEnhancement/test/blame/Test.blame.cpp
+  -empty_dir: branches/LogCacheEnhancement/test/blame/Test.log.bin
+  -empty_dir: branches/LogCacheEnhancement/test/blame/Test2.blame.xml
+  -empty_dir: branches/LogCacheEnhancement/test/blame/Test2.log.bin
+  -empty_dir: branches/LogCacheEnhancement/test/blame/TestBlame.bat
+  +dir_prop: branches/LogCacheEnhancement svnmerge-integrated /trunk:1-9628%2C9631-9907%2C9909-10563%2C10565-10815
+  +dir_prop: branches/LogCacheEnhancement/ext svn:externals Subversion%20-r26830%20https://svn.collab.net/repos/svn/trunk/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.9/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.8/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.27.2/%0Aserf%20http://serf.googlecode.com/svn/tags/0.1.2/%0A
+  +dir_prop: branches/LogCacheEnhancement/src/SubWCRev svn:ignore *.user%0ATest.txt%0A*.aps%0A*.tlb%0ASubWCRev_h.h%0ASubWCRev_i.c%0ASubWCRevCOM_h.h%0ASubWCRevCOM_i.c%0A
+  +file_prop: branches/LogCacheEnhancement/doc/images/en/LogMergeTrack.png svn:mime-type image/png
+  +file_prop: branches/LogCacheEnhancement/doc/images/ja/LogMergeTrack.png svn:mime-type image/png
+  +file_prop: branches/LogCacheEnhancement/src/Resources/CheckoutBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/CopyBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/ExportBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/ImportBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/MergeBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/RenameBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/SwitchBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/UpdateBackground.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/lineconflictedignored.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/Resources/lineedited.ico svn:mime-type image/x-icon
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/SubWCRev.rc2 svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/SubWCRevCOM.idl svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/SubWCRevCOM.rc svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/SubWCRevCOM.rc svn:mergeinfo /trunk/src/SubWCRev/SubWCRev.rc:9350-10795
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/resourcecom.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/SubWCRev/resourcecom.h svn:mergeinfo /trunk/src/SubWCRev/resource.h:9350-10795
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseMerge/DiffColors.cpp svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseMerge/DiffColors.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/src/TortoiseMerge/EOL.h svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/test/blame/test.blame.html svn:eol-style native
+  +file_prop: branches/LogCacheEnhancement/test/blame/test.blame.html svn:mime-type text/html
+  +file_prop: branches/LogCacheEnhancement/test/blame/test.log.bin svn:mime-type application/octet-stream
+r10821
+r10824
+r10828
+r10830
+r10831
+r10832
+r10833
+r10834
+r10835
+r10857
+r10858
+r10859
+r10860
+r10861
+r10863
+r10864
+r10865
+r10866
+r10867
+  +dir_prop: branches/LogCacheEnhancement svn:mergeinfo /branches/1.4.x:9134%0A/trunk:10816-10829
+  +dir_prop: branches/LogCacheEnhancement svnmerge-integrated /trunk:1-9628%2C9631-9907%2C9909-10563%2C10565-10829
+r10869
+  +dir_prop: branches/LogCacheEnhancement svn:mergeinfo /branches/1.4.x:9134%0A/trunk:10816-10829%2C10836-10862
+  +dir_prop: branches/LogCacheEnhancement svnmerge-integrated /trunk:1-9628%2C9631-9907%2C9909-10563%2C10565-10829%2C10836-10862
+r10871
+r10874
+r10875
+r10876
+r10877
+r10878
+r10885
+r10886
+r10887
+r11153
+r11155
+r11234
+r11235
+r11236
+r11237
+r11238
+r11239
+r11240
+r11241
+r11243
+r11244
+  +dir_prop: branches/LogCacheEnhancement/ext svn:externals Subversion%20-r27573%20https://svn.collab.net/repos/svn/trunk/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.11/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.10/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.27.2/%0Aserf%20http://serf.googlecode.com/svn/tags/0.1.2/%0A
+r11246
+r11247
+r11248
+r11249
+r11250
+r11251
+r11252

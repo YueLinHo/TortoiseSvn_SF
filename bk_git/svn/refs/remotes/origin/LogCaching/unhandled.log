@@ -1,0 +1,228 @@
+r6917
+r6918
+  +empty_dir: branches/LogCaching/src/LogCache
+r6919
+r6932
+r6965
+r6966
+r7314
+r7315
+r7319
+r7321
+r7322
+r7323
+r7324
+r7325
+r7330
+r7331
+r7332
+r7333
+r7341
+r7342
+r7343
+r7344
+r7392
+r7393
+r7394
+r7395
+r7396
+r7397
+r7398
+r7593
+  +file_prop: branches/LogCaching/src/LogCache/PackedDWORDOutStream.h svn:eol-style native
+r7594
+  +file_prop: branches/LogCaching/src/LogCache/CacheFileInBuffer.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CacheFileInBuffer.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CachedLogInfo.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CachedLogInfo.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/LogCache.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/LogCache.vcproj svn:eol-style native
+r7595
+  +file_prop: branches/LogCaching/src/LogCache/BLOBInStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/BLOBInStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/BLOBOutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/BLOBOutStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/BinaryInStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/BinaryInStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/BinaryOutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/BinaryOutStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CacheFileOutBuffer.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CacheFileOutBuffer.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CompositeInStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CompositeInStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CompositeOutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CompositeOutStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/DiffIntegerInStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/DiffIntegerInStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/DiffIntegerOutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/DiffIntegerOutStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/HierachicalInStreamBase.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/HierachicalInStreamBase.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/HierachicalOutStreamBase.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/HierachicalOutStreamBase.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/IndexPairDictionary.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/IndexPairDictionary.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/LogCache.sln svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedDWORDInStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedDWORDInStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedDWORDOutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedIntegerInStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedIntegerInStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedIntegerOutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedIntegerOutStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PathDictionary.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PathDictionary.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/QuickHash.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/RevisionIndex.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/RevisionIndex.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/RevisionInfoContainer.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/RevisionInfoContainer.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/RootInStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/RootInStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/RootOutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/RootOutStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StreamFactory.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StreamTypeIDs.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StringDictonary.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StringDictonary.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/TokenizedStringContainer.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/TokenizedStringContainer.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/stdafx.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/stdafx.h svn:eol-style native
+r7597
+  +file_prop: branches/LogCaching/src/LogCache/PackedTime64InStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedTime64InStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedTime64OutStream.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/PackedTime64OutStream.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/XMLLogReader.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/XMLLogReader.h svn:eol-style native
+r7796
+r7797
+r7798
+  +file_prop: branches/LogCaching/src/LogCache/BufferedOutFile.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/BufferedOutFile.h svn:eol-style native
+r7799
+r7800
+r7801
+r7802
+r7803
+  +file_prop: branches/LogCaching/src/LogCache/XMLLogWriter.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/XMLLogWriter.h svn:eol-style native
+r7809
+r7810
+r7828
+r7829
+r7830
+r7831
+r7832
+r7833
+r7834
+r7835
+r7836
+r7858
+r7859
+  +file_prop: branches/LogCaching/src/LogCache/SkipRevisionInfo.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/SkipRevisionInfo.h svn:eol-style native
+r7895
+r7918
+r7995
+  +file_prop: branches/LogCaching/src/LogCache/HighResClock.h svn:eol-style native
+r8002
+r8003
+r8004
+  +file_prop: branches/LogCaching/src/LogCache/CopyFollowingLogIterator.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CopyFollowingLogIterator.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/ILogIterator.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/LogIteratorBase.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/LogIteratorBase.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StrictLogInterator.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StrictLogInterator.h svn:eol-style native
+r9170
+r9171
+r9173
+r9174
+r9175
+  +dir_prop: branches/LogCaching/src/LogCache svn:ignore Release%0ADebug%0A*.ncb%0A*.opt%0A*.suo%0A*.user%0A
+r9176
+r9177
+r9178
+r9180
+r9256
+r9257
+r9258
+r9259
+r9262
+  +file_prop: branches/LogCaching/src/LogCache/LogCacheGlobals.h svn:eol-style native
+r9263
+r9266
+r9267
+r9268
+r9283
+r9284
+  +file_prop: branches/LogCaching/src/SVN/SVNError.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/SVN/SVNError.h svn:eol-style native
+r9285
+r9286
+r9287
+r9288
+  +file_prop: branches/LogCaching/src/LogCache/CopyFollowingLogBatchIterator.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CopyFollowingLogBatchIterator.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/ILogQuery.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/ILogReceiver.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/LogBatchIteratorBase.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/LogBatchIteratorBase.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/MappedInFile.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/MappedInFile.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/SVNLogQuery.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/SVNLogQuery.h svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StrictLogBatchIterator.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StrictLogBatchIterator.h svn:eol-style native
+r9385
+  +file_prop: branches/LogCaching/src/LogCache/LogCachePool.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/LogCachePool.h svn:eol-style native
+r9386
+r9387
+r9388
+r9389
+  +file_prop: branches/LogCaching/src/LogCache/CacheLogQuery.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/CacheLogQuery.h svn:eol-style native
+r9396
+  -empty_dir: branches/LogCaching/src/LogCache/StrictLogInterator.cpp
+  -empty_dir: branches/LogCaching/src/LogCache/StrictLogInterator.h
+  +file_prop: branches/LogCaching/src/LogCache/StrictLogIterator.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/StrictLogIterator.h svn:eol-style native
+r9397
+r9398
+r9399
+r9400
+r9401
+r9402
+r9403
+r9404
+r9437
+r9438
+r9439
+  +file_prop: branches/LogCaching/src/LogCache/ILogReceiver.cpp svn:eol-style native
+r9440
+r9441
+r9442
+r9459
+  +file_prop: branches/LogCaching/src/LogCache/DictionaryBasedTempPath.cpp svn:eol-style native
+  +file_prop: branches/LogCaching/src/LogCache/DictionaryBasedTempPath.h svn:eol-style native
+r9460
+r9461
+r9462
+r9463
+r9464
+r9465
+r9466
+r9467
+r9468
+r9469
+r9470
+r9472
+r9473
+r9474
+r9475
+r9476
+r9477

@@ -1,0 +1,444 @@
+r7193
+r7194
+  +file_prop: branches/1.4.x/STATUS.txt svn:eol-style native
+r7195
+r7199
+r7208
+  +file_prop: branches/1.4.x/doc/images/en/CompareRevisions.png svn:mime-type image/png
+r7210
+r7215
+r7219
+r7221
+r7222
+r7224
+r7226
+r7232
+r7234
+r7237
+r7239
+r7241
+r7246
+r7251
+r7253
+r7255
+r7257
+r7260
+r7262
+r7265
+r7269
+r7273
+r7275
+r7279
+r7283
+r7288
+r7295
+r7298
+r7300
+r7303
+r7307
+r7309
+r7312
+r7317
+r7328
+r7335
+r7337
+r7347
+r7352
+r7353
+r7354
+r7355
+r7358
+r7361
+r7366
+r7367
+r7369
+r7379
+r7386
+  +file_prop: branches/1.4.x/doc/images/fr/CompareRevisions.png svn:mime-type application/octet-stream
+  +file_prop: branches/1.4.x/doc/images/fr/PropertyAdd.png svn:mime-type application/octet-stream
+  +file_prop: branches/1.4.x/doc/images/fr/TortoiseBlame.png svn:mime-type application/octet-stream
+r7401
+r7412
+r7415
+r7416
+r7420
+r7423
+r7425
+r7428
+r7429
+r7434
+r7439
+r7440
+r7444
+r7445
+r7446
+r7449
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.0/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.25.5/%0A
+r7451
+r7452
+r7457
+r7458
+r7463
+r7469
+r7471
+  +file_prop: branches/1.4.x/Languages/Tortoise_sk.po svn:eol-style LF
+r7472
+r7475
+r7477
+r7479
+r7482
+r7484
+r7489
+r7490
+r7493
+r7497
+r7499
+r7501
+r7505
+r7512
+r7515
+r7517
+r7532
+r7538
+r7540
+r7548
+r7549
+r7550
+r7554
+r7557
+r7559
+r7562
+r7573
+r7586
+r7588
+r7598
+r7612
+r7622
+  -empty_dir: branches/1.4.x/doc/APIDoc.build
+r7627
+r7637
+r7642
+r7647
+r7666
+r7669
+r7671
+r7673
+r7676
+r7682
+r7685
+r7689
+r7695
+r7697
+r7699
+r7707
+r7710
+r7712
+r7715
+r7716
+r7721
+r7729
+r7738
+r7746
+r7750
+r7751
+r7759
+r7761
+r7765
+r7770
+r7775
+r7778
+r7790
+r7820
+r7844
+r7846
+r7851
+r7853
+r7861
+r7863
+r7870
+r7872
+r7874
+r7881
+r7883
+r7888
+r7898
+r7909
+r7916
+r7920
+r7923
+  +dir_prop: branches/1.4.x/ext bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26id%3D%25BUGID%25
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.0/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.2/%0A
+r7924
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.2/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.2/%0A
+r7928
+r7946
+r7958
+r7961
+r7962
+r7965
+  +file_prop: branches/1.4.x/doc/images/id/Authenticate.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/BlameDialog.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Checkout.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Commit.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/CommitProgress.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/CommitSpellcheck.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/CompareRevisions.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ContextMenuDirControl.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ContextMenuDirNoControl.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ContextMenuFileControl.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ContextMenuFileNoControl.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Copy.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/CreatePatch.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ExplorerFileMenu.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/GetLock.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Import.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/LogContextMenu.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/LogContextMenu1.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/LogContextMenu2.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/LogMessages.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Merge.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/MergeOnePane.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/MergeOpen.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/MergePatchWindow.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/MergeSettingsColors.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/MergeSettingsGeneral.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/MergeThreePane.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/MergeToolbar.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/MergeTwoPane.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Overlays.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Properties.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/PropertyAdd.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/PropertyList.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Relocate.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/RepoStatus.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Repobrowser.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Revert.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/RevisionGraph.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/RightDragMenu.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsColors.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsContext.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsDialog.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsDialog2.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsMain.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsOverlay.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsOverlayChooser.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsProgs.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsProgsAdv.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsProxy.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/SettingsSavedData.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/StatsByAuthPie.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/StatsByAuthor.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/StatsByWeek.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Switch.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/Thumbs.db svn:mime-type application/octet-stream
+  +file_prop: branches/1.4.x/doc/images/id/TortoiseBlame.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/TortoiseIDiff.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/UpdateFinished.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ch02dia1.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ch02dia2.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ch02dia3.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ch02dia4.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ch02dia5.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ch02dia6.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/ch02dia7.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/mergeprinciple.png svn:mime-type image/png
+  +file_prop: branches/1.4.x/doc/images/id/upgradecheck.png svn:mime-type image/png
+r7966
+r7967
+r7969
+r7971
+r7973
+r7981
+r7991
+r7992
+r8008
+r8017
+r8019
+r8020
+r8047
+r8054
+r8057
+  +file_prop: branches/1.4.x/doc/images/ru/MergeSettingsColors.png svn:mime-type application/octet-stream
+  +file_prop: branches/1.4.x/doc/images/ru/MergeSettingsGeneral.png svn:mime-type application/octet-stream
+r8087
+r8090
+r8092
+r8095
+r8104
+r8123
+r8125
+r8130
+r8140
+r8157
+r8167
+r8186
+r8224
+r8226
+r8227
+r8235
+r8332
+r8396
+r8411
+r8433
+r8437
+r8439
+r8471
+r8481
+r8483
+r8486
+r8493
+r8517
+r8544
+r8546
+r8553
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.3/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.3/%0A
+r8578
+r8580
+r8589
+r8593
+r8631
+r8635
+r8637
+r8641
+r8645
+r8671
+r8698
+r8727
+r8748
+r8751
+r8766
+r8769
+r8778
+r8795
+r8819
+r8825
+r8828
+r8856
+r8863
+r8866
+r8902
+r8909
+r8932
+r8939
+r8943
+r8959
+r8968
+r8974
+r8976
+r8981
+r9004
+r9009
+r9027
+r9029
+r9030
+r9036
+  +file_prop: branches/1.4.x/src/TortoiseSVNSetup/include/TSVN_eula.rtf svn:eol-style native
+r9041
+  +dir_prop: branches/1.4.x/doc/xsl/hr svn:ignore userconfig.xml%0A
+r9044
+r9047
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:9046
+r9084
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:9046%2C9083
+r9095
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:9046%2C9083%2C9094
+r9099
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:9046%2C9083%2C9094%2C9098
+r9124
+r9134
+r9159
+r9172
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098
+r9183
+r9234
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233
+r9265
+r9318
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317
+r9378
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9377
+r9393
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9377%2C9392
+r9433
+r9552
+r9555
+r9572
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9377%2C9392%2C9571
+r9671
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9377%2C9392%2C9571%2C9670
+r9674
+r9705
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.4/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.3/%0A
+r9706
+r9733
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670
+r9735
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734
+r9756
+r9804
+r9816
+r9823
+r9959
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958
+r9984
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983
+r10066
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065
+r10114
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.4/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.4/%0A
+r10209
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208
+r10246
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245
+r10283
+r10327
+r10338
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337
+r10400
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399
+r10403
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402
+r10409
+r10422
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.5/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.4/%0A
+r10423
+r10443
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402%2C10437
+r10444
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402%2C10437%2C10441-10442
+r10449
+r10469
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402%2C10437%2C10441-10442%2C10468
+r10555
+r10609
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402%2C10437%2C10441-10442%2C10468%2C10608
+r10668
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402%2C10437%2C10441-10442%2C10468%2C10608%2C10667
+r10679
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402%2C10437%2C10441-10442%2C10468%2C10608%2C10667%2C10678
+r10683
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402%2C10437%2C10441-10442%2C10468%2C10608%2C10667%2C10678%2C10681
+r11648
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/branches/1.4.x/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.4/%0A
+r11685
+r11686
+r11762
+r11763
+r11764
+r11792
+r11814
+r11817
+  +file_prop: branches/1.4.x/Languages/Tortoise_zh_CN.po svn:keywords author%20date%20rev%20url%20id
+r11818
+  +dir_prop: branches/1.4.x svn:mergeinfo /trunk:8958%2C9046%2C9083%2C9094%2C9098%2C9233%2C9317%2C9340%2C9377%2C9392%2C9571%2C9670%2C9734%2C9958%2C9983%2C10065%2C10113%2C10208%2C10245%2C10337%2C10399%2C10401-10402%2C10437%2C10441-10442%2C10468%2C10608%2C10667%2C10678%2C10681%2C11816
+r11819
+r12110
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/branches/1.4.x/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.27.2/%0A
+r12121
+r12137
+r12138
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/branches/1.4.6/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.27.2/%0A
+r12140
+  +dir_prop: branches/1.4.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.6%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.27.2/%0A
+r14688

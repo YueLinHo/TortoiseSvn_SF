@@ -1,0 +1,261 @@
+r5202
+r5203
+r5204
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_archive.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_checkpoint.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_deadlock.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_dump.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_load.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_printlog.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_recover.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_stat.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_upgrade.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/db_verify.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/ex_access.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/ex_btrec.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/ex_env.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/ex_lock.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/ex_mpool.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/ex_tpcb.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/excxx_access.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/excxx_btrec.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/excxx_env.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/excxx_lock.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/excxx_mpool.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/excxx_tpcb.exe svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/libdb43.dll svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/bin/libdb43d.dll svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/lib/libdb43.exp svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/lib/libdb43.lib svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/lib/libdb43d.exp svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/lib/libdb43d.lib svn:mime-type application/octet-stream
+r5205
+  +file_prop: branches/x64/ext/svn-x64-libintl/bin/intl3_svn.dll svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/svn-x64-libintl/lib/intl3_svn.exp svn:mime-type application/octet-stream
+  +file_prop: branches/x64/ext/svn-x64-libintl/lib/intl3_svn.lib svn:mime-type application/octet-stream
+r5206
+r5207
+r5208
+r5221
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/include/db.h svn:eol-style native
+  +file_prop: branches/x64/ext/berkeley-db/db4.3-x64/include/db_cxx.h svn:eol-style native
+  +file_prop: branches/x64/ext/svn-x64-libintl/README.txt svn:eol-style native
+  +file_prop: branches/x64/ext/svn-x64-libintl/diff-0.14.1.txt svn:eol-style native
+  +file_prop: branches/x64/ext/svn-x64-libintl/inc/libintl.h svn:eol-style native
+r5421
+  -empty_dir: branches/x64/doc/dtd
+  -empty_dir: branches/x64/doc/po/de.po
+  -empty_dir: branches/x64/doc/po/doc.pot
+  -empty_dir: branches/x64/doc/po/es.po
+  -empty_dir: branches/x64/doc/po/ja.po
+  -empty_dir: branches/x64/doc/source/en/tme_appa.xml
+  -empty_dir: branches/x64/doc/source/en/tme_appb.xml
+  -empty_dir: branches/x64/doc/source/en/tme_ch00.xml
+  -empty_dir: branches/x64/doc/source/en/tme_ch01.xml
+  -empty_dir: branches/x64/doc/source/en/tme_ch02.xml
+  -empty_dir: branches/x64/doc/source/en/tortoisemerge.xml
+  -empty_dir: branches/x64/doc/source/en/tortoisesvn.xml
+  -empty_dir: branches/x64/doc/source/en/tsvn_app_automation.xml
+  -empty_dir: branches/x64/doc/source/en/tsvn_app_cli.xml
+  -empty_dir: branches/x64/doc/source/en/tsvn_app_faq.xml
+  -empty_dir: branches/x64/doc/source/en/tsvn_app_howto.xml
+  -empty_dir: branches/x64/doc/source/en/tsvn_basics.xml
+  -empty_dir: branches/x64/doc/source/en/tsvn_dug
+  -empty_dir: branches/x64/doc/source/en/tsvn_introduction.xml
+  -empty_dir: branches/x64/doc/source/en/tsvn_preface.xml
+  -empty_dir: branches/x64/doc/source/en/tsvn_repository
+  -empty_dir: branches/x64/doc/source/en/tsvn_server
+  -empty_dir: branches/x64/doc/source/en/tsvn_subwcrev.xml
+  -empty_dir: branches/x64/src/TortoiseBlame/Makefile
+  -empty_dir: branches/x64/src/TortoiseMerge/Testfiles
+  -empty_dir: branches/x64/toolpaths.tmpl
+  +dir_prop: branches/x64 svn:ignore bin%0Aobj%0Awww%0ADesktop.ini%0ATools%0Atools%0ATortoiseVars.bat%0AMYBUILD%0Aversion.build%0Atoolpaths.build%0Adefault.user%0Adefault.build.user%0A
+  +dir_prop: branches/x64/doc/source/dtd bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/x64/doc/source/dtd bugtraq:url http://tortoisesvn.berlios.de/issues/%3Fdo%3Ddetails%26id%3D%25BUGID%25
+  +dir_prop: branches/x64/doc/source/dtd tsvn:logminsize 10
+  +dir_prop: branches/x64/doc/source/dtd tsvn:projectlanguage 1033
+  +dir_prop: branches/x64/doc/source/dtd/docbook41 bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/x64/doc/source/dtd/docbook41 bugtraq:url http://tortoisesvn.berlios.de/issues/%3Fdo%3Ddetails%26id%3D%25BUGID%25
+  +dir_prop: branches/x64/doc/source/dtd/docbook41 tsvn:projectlanguage 1033
+  +dir_prop: branches/x64/doc/source/dtd/docbook41/ent bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/x64/doc/source/dtd/docbook41/ent bugtraq:url http://tortoisesvn.berlios.de/issues/%3Fdo%3Ddetails%26id%3D%25BUGID%25
+  +dir_prop: branches/x64/doc/source/dtd/docbook41/ent tsvn:projectlanguage 1033
+  +dir_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug bugtraq:url http://tortoisesvn.berlios.de/issues/%3Fdo%3Ddetails%26id%3D%25BUGID%25
+  +dir_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug tsvn:projectlanguage 1033
+  +dir_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server bugtraq:url http://tortoisesvn.berlios.de/issues/%3Fdo%3Ddetails%26id%3D%25BUGID%25
+  +dir_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server tsvn:projectlanguage 1033
+  +dir_prop: branches/x64/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.3.0/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.7/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.7/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.25.4/%0A
+  +dir_prop: branches/x64/src/SubWCRev svn:ignore *.user%0ATest.txt%0A
+  +dir_prop: branches/x64/test/mergediff/FilesToPatch bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/x64/test/mergediff/FilesToPatch bugtraq:url http://tortoisesvn.berlios.de/issues/%3Fdo%3Ddetails%26id%3D%25BUGID%25
+  +dir_prop: branches/x64/test/mergediff/FilesToPatch tsvn:projectlanguage 1033
+  +file_prop: branches/x64/STATUS.txt svn:eol-style native
+  +file_prop: branches/x64/default.build.user.tmpl svn:eol-style native
+  +file_prop: branches/x64/doc/images/en/SettingsDialog2.png svn:mime-type image/png
+  +file_prop: branches/x64/doc/po/TortoiseMerge.pot svn:eol-style LF
+  +file_prop: branches/x64/doc/po/TortoiseMerge_de.po svn:eol-style LF
+  +file_prop: branches/x64/doc/po/TortoiseMerge_es.po svn:eol-style LF
+  +file_prop: branches/x64/doc/po/TortoiseSVN.pot svn:eol-style LF
+  +file_prop: branches/x64/doc/po/TortoiseSVN_de.po svn:eol-style LF
+  +file_prop: branches/x64/doc/po/TortoiseSVN_es.po svn:eol-style LF
+  +file_prop: branches/x64/doc/source/dtd/dblite.dtd svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/calstblx.dtd svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/dbcentx.mod svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/dbgenent.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/dbhierx.mod svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/dbnotnx.mod svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/dbpoolx.mod svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/docbook.cat svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/docbookx.dtd svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-amsa.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-amsb.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-amsc.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-amsn.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-amso.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-amsr.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-box.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-cyr1.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-cyr2.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-dia.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-grk1.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-grk2.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-grk3.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-grk4.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-lat1.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-lat2.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-num.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-pub.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/ent/iso-tech.ent svn:eol-style native
+  +file_prop: branches/x64/doc/source/dtd/docbook41/soextblx.dtd svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_appa.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_appa.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_appb.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_appb.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_ch00.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_ch00.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_ch01.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_ch01.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_ch02.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tme_ch02.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tortoisemerge.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseMerge/tortoisemerge.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tortoisesvn.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tortoisesvn.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_app_automation.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_app_automation.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_app_cli.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_app_cli.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_app_faq.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_app_faq.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_app_howto.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_app_howto.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_basics.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_basics.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_add.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_add.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_blame.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_blame.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_branchtag.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_branchtag.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_bugtracker.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_bugtracker.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_checkout.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_checkout.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_cleanup.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_cleanup.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_commit.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_commit.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_conflicts.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_conflicts.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_diff.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_diff.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_general.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_general.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_ignore.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_ignore.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_import.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_import.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_locking.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_locking.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_merge.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_merge.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_patch.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_patch.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_propertypage.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_propertypage.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_relocate.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_relocate.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_rename.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_rename.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_repobrowser.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_repobrowser.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_revert.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_revert.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_revgraph.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_revgraph.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_settings.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_settings.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_showlog.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_showlog.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_update.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_update.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_wcstatus.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_dug/dug_wcstatus.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_introduction.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_introduction.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_preface.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_preface.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/checkout_links.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/checkout_links.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/repository.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/repository.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/repository_backup.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/repository_backup.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/repository_create.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/repository_create.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/repository_hooks.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_repository/repository_hooks.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server/server.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server/server.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server/server_apache.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server/server_apache.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server/server_svn.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_server/server_svn.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_subwcrev.xml svn:eol-style native
+  +file_prop: branches/x64/doc/source/en/TortoiseSVN/tsvn_subwcrev.xml svn:mime-type text/xml
+  +file_prop: branches/x64/doc/xsl/profile-mode.xsl svn:eol-style native
+  +file_prop: branches/x64/doc/xsl/profile-mode.xsl svn:mime-type text/xsl
+  +file_prop: branches/x64/doc/xsl/profile.xsl svn:eol-style native
+  +file_prop: branches/x64/doc/xsl/profile.xsl svn:mime-type text/xsl
+  +file_prop: branches/x64/test/blame/Test.blame.xml svn:eol-style native
+  +file_prop: branches/x64/test/blame/Test.blame.xml svn:mime-type text/xml
+  +file_prop: branches/x64/test/blame/Test.log.bin svn:mime-type application/octet-stream
+  +file_prop: branches/x64/test/blame/TestBlame.bat svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/Bearbeiten1 svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/Bearbeiten2 svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/FilesToPatch/ShellCache.h svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/FilesToPatch/file1.txt svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/FilesToPatch/yourShoppingCart.cfc svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/Schiller%27sGlocke_base.txt svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/Schiller%27sGlocke_theirs.txt svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/Schiller%27sGlocke_yours.txt svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/auth.diff svn:eol-style LF
+  +file_prop: branches/x64/test/mergediff/export.diff svn:eol-style LF
+  +file_prop: branches/x64/test/mergediff/hardlinks.diff svn:eol-style LF
+  +file_prop: branches/x64/test/mergediff/patch.diff svn:eol-style LF
+  +file_prop: branches/x64/test/mergediff/svn155.tmp.diff svn:eol-style LF
+  +file_prop: branches/x64/test/mergediff/tarballs.diff svn:eol-style LF
+  +file_prop: branches/x64/test/mergediff/utf8bom.txt svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/utf8nobom.txt svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/whitespace1.txt svn:eol-style native
+  +file_prop: branches/x64/test/mergediff/whitespace2.txt svn:eol-style native
+r5424
+r5425
+r5426
+r5427
+r5428

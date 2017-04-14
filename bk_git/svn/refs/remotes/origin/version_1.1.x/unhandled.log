@@ -1,0 +1,60 @@
+r2882
+r2883
+r2886
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_archive.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_checkpoint.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_deadlock.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_dump.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_load.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_printlog.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_recover.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_stat.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_upgrade.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/db_verify.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/ex_access.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/ex_btrec.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/ex_env.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/ex_lock.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/ex_mpool.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/ex_tpcb.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/excxx_access.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/excxx_btrec.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/excxx_env.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/excxx_lock.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/excxx_mpool.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/excxx_tpcb.exe svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/libdb42.dll svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/bin/libdb42d.dll svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/lib/libdb42.exp svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/lib/libdb42.lib svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/lib/libdb42d.exp svn:mime-type application/octet-stream
+  +file_prop: branches/version_1.1.x/ext/berkeley-db/db4.2-win32/lib/libdb42d.lib svn:mime-type application/octet-stream
+r2887
+r2888
+r2889
+r2890
+r2891
+r2897
+r2898
+  -empty_dir: branches/version_1.1.x/Backport.txt
+r2899
+r2935
+r2954
+r2959
+r2960
+r2962
+r2968
+r2975
+r2978
+r2980
+r2990
+r3021
+r3033
+r3046
+r3113
+r3193
+r3220
+r3240
+r3247
+r3305
+r3451

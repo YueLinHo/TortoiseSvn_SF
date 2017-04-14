@@ -1,0 +1,628 @@
+r12272
+r12329
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphNode.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphNode.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphNode.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/NodeClassification.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/NodeClassification.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SimpleList.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphNode.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphNode.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphNode.h svn:mergeinfo 
+r12330
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraph.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraph.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.h svn:mergeinfo 
+r12331
+r12332
+r12347
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistoryBuilder.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistoryBuilder.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistoryBuilder.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistoryBuilder.h svn:mergeinfo 
+r12352
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.h svn:mergeinfo 
+r12358
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/AllGraphOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/AllGraphOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/CopyFilterOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/CopyFilterOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ModificationOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ModificationOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.h svn:mergeinfo 
+r12468
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/IRevisionGraphLayout.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/LayoutOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/LayoutOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptionsImpl.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphBuilder.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphBuilder.h svn:eol-style native
+r12475
+  +dir_prop: branches/RefactorRevGraph/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/branches/1.5.x/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.1/%0Aserf%20http://serf.googlecode.com/svn/tags/0.1.2/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+  +file_prop: branches/RefactorRevGraph/contrib/hook-scripts/client-side/PostCommit.js.tmpl svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/contrib/hook-scripts/client-side/PostUpdate.js.tmpl svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/contrib/hook-scripts/client-side/PreCommit.js.tmpl svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/contrib/hook-scripts/client-side/PreUpdate.js.tmpl svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/contrib/hook-scripts/client-side/StartCommit.js.tmpl svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/contrib/hook-scripts/client-side/StartUpdate.js.tmpl svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/ext/build/apr_open.c svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/Resources/TortoiseSmall.ico svn:mime-type image/x-icon
+  -file_prop: branches/RefactorRevGraph/src/TortoiseMerge/resource.h svn:eol-style
+  +file_prop: branches/RefactorRevGraph/src/TortoiseMerge/resource.h svn:mime-type application/octet-stream
+r12478
+r12479
+r12480
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayout.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayout.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutConnectionList.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutConnectionList.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutNodeList.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutNodeList.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutTextList.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutTextList.h svn:eol-style native
+r12820
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodePositioning.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodePositioning.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodeSizeAssignment.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodeSizeAssignment.h svn:eol-style native
+r13421
+r13422
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistoryBuilder.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistoryBuilder.h
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.h svn:mergeinfo 
+r13431
+r13432
+r13446
+r13447
+r13451
+r13452
+r13453
+r13506
+r13565
+r13566
+r13567
+r13568
+r13569
+r13570
+r13618
+r13664
+r13665
+r13666
+r13667
+r13668
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RemoveSimpleChanges.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RemoveSimpleChanges.h svn:eol-style native
+r13669
+r13670
+r13671
+r13674
+r13675
+r13676
+r13677
+r13678
+r13679
+r13680
+r13681
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/FoldTags.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/FoldTags.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RemoveDeletedBranches.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RemoveDeletedBranches.h svn:eol-style native
+r13684
+r13685
+r13844
+r13848
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/FoldTags.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/FoldTags.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RemoveDeletedBranches.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RemoveDeletedBranches.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RemoveSimpleChanges.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RemoveSimpleChanges.h
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/FoldTags.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/FoldTags.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/FoldTags.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/FoldTags.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RemoveDeletedBranches.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RemoveDeletedBranches.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RemoveDeletedBranches.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RemoveDeletedBranches.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RemoveSimpleChanges.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RemoveSimpleChanges.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RemoveSimpleChanges.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RemoveSimpleChanges.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+r13849
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowHeads.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowHeads.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowWC.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowWC.h svn:eol-style native
+r13850
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BLOBInStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BLOBInStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BLOBOutStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BLOBOutStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BinaryInStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BinaryInStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BinaryOutStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BinaryOutStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BufferedOutFile.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/BufferedOutFile.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CSVWriter.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CSVWriter.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CacheFileInBuffer.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CacheFileInBuffer.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CacheFileOutBuffer.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CacheFileOutBuffer.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CacheLogQuery.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CacheLogQuery.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CachedLogInfo.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CachedLogInfo.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CompositeInStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CompositeInStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CompositeOutStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CompositeOutStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CopyFollowingLogIterator.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/CopyFollowingLogIterator.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/DictionaryBasedTempPath.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/DictionaryBasedTempPath.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/DiffIntegerInStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/DiffIntegerInStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/DiffIntegerOutStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/DiffIntegerOutStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HierachicalInStreamBase.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HierachicalInStreamBase.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HierachicalOutStreamBase.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HierachicalOutStreamBase.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HighResClock.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HuffmanBase.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HuffmanBase.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HuffmanDecoder.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HuffmanDecoder.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HuffmanEncoder.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/HuffmanEncoder.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/ILogIterator.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/ILogQuery.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/ILogReceiver.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/ILogReceiver.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/IndexPairDictionary.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/IndexPairDictionary.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCache.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCache.sln
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCache.vcproj
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCacheGlobals.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCacheLib.vcproj
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCachePool.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCachePool.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCacheStatistics.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogCacheStatistics.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogIteratorBase.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/LogIteratorBase.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/MappedInFile.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/MappedInFile.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedDWORDInStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedDWORDInStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedDWORDOutStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedDWORDOutStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedIntegerInStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedIntegerInStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedIntegerOutStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedIntegerOutStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedTime64InStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedTime64InStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedTime64OutStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PackedTime64OutStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PathDictionary.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/PathDictionary.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/QuickHash.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/QuickHashMap.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RepositoryInfo.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RepositoryInfo.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RevisionIndex.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RevisionIndex.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RevisionInfoContainer.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RevisionInfoContainer.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RootInStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RootInStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RootOutStream.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/RootOutStream.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/SVNLogQuery.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/SVNLogQuery.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/SkipRevisionInfo.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/SkipRevisionInfo.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/StreamFactory.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/StreamTypeIDs.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/StrictLogIterator.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/StrictLogIterator.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/StringDictonary.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/StringDictonary.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/TokenizedStringContainer.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/TokenizedStringContainer.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/XMLLogReader.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/XMLLogReader.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/XMLLogWriter.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/XMLLogWriter.h
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/doc
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/stdafx.cpp
+  -empty_dir: branches/RefactorRevGraph/src/LogCache/stdafx.h
+r13851
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/AllGraphOptions.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/AllGraphOptions.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/CopyFilterOptions.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/CopyFilterOptions.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraph.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraph.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphNode.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphNode.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/IRevisionGraphLayout.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/LayoutOptions.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/LayoutOptions.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ModificationOptions.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ModificationOptions.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/NodeClassification.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/PathClassificator.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/PathClassificator.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionEntry.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraph.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraph.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlg.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlg.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlgDraw.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlgFunc.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptions.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptions.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptionsImpl.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphWnd.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphWnd.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SearchPathTree.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SearchPathTree.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowHeads.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowHeads.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowWC.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowWC.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SimpleList.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayout.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayout.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutConnectionList.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutConnectionList.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutNodeList.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutNodeList.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutTextList.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutTextList.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodePositioning.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodePositioning.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodeSizeAssignment.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodeSizeAssignment.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphBuilder.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphBuilder.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphNode.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphNode.h
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/Readme.txt svn:eol-style native
+r13859
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/Readme.txt
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/AllGraphOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/AllGraphOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/CopyFilterOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/CopyFilterOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/FoldTags.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/FoldTags.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FoldTags.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/FoldTags.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/FoldTags.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraph.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraph.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphBuilder.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphFinalizer.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphNode.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphNode.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullGraphNode.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/FullHistory.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/IRevisionGraphLayout.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/LayoutOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/LayoutOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ModificationOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ModificationOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/NodeClassification.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/NodeClassification.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/PathClassificator.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/PathClassificator.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/PathClassificator.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/PathClassificator.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/PathClassificator.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/PathClassificator.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/PathClassificator.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/PathClassificator.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RemoveDeletedBranches.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RemoveDeletedBranches.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveDeletedBranches.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RemoveDeletedBranches.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RemoveDeletedBranches.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RemoveSimpleChanges.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RemoveSimpleChanges.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemoveSimpleChanges.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RemoveSimpleChanges.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RemoveSimpleChanges.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionEntry.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionEntry.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraph.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraph.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraph.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraph.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlg.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlg.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlg.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlg.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlgDraw.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlgDraw.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RevisionGraphDlgDraw.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RevisionGraphDlgDraw.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlgFunc.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphDlgFunc.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RevisionGraphDlgFunc.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RevisionGraphDlgFunc.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptions.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptions.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphOptionsImpl.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphWnd.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphWnd.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RevisionGraphWnd.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RevisionGraphWnd.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphWnd.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraphWnd.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RevisionGraphWnd.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RevisionGraphWnd.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SearchPathTree.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SearchPathTree.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SearchPathTree.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SearchPathTree.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowHeads.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowHeads.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowWC.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ShowWC.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/SimpleList.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayout.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayout.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutConnectionList.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutConnectionList.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutNodeList.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutNodeList.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutTextList.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardLayoutTextList.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodePositioning.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodePositioning.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodeSizeAssignment.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StandardNodeSizeAssignment.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.cpp svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraph.h svn:mergeinfo 
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphBuilder.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphBuilder.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphNode.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphNode.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/VisibleGraphNode.h svn:mergeinfo 
+r13860
+r13861
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ExactCopyFroms.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/ExactCopyFroms.h svn:eol-style native
+r13862
+  -dir_prop: branches/RefactorRevGraph svnmerge-blocked
+  -dir_prop: branches/RefactorRevGraph svnmerge-integrated
+r13863
+  +dir_prop: branches/RefactorRevGraph svnmerge-integrated /trunk:1-12271
+r13864
+  +dir_prop: branches/RefactorRevGraph/src/LogCache/doc tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.svg%20%3D%20svn:mime-type%3Dimage/svg%2Bxml%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BLOBInStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BLOBInStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BLOBOutStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BLOBOutStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BinaryInStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BinaryInStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BinaryOutStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BinaryOutStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BufferedOutFile.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/BufferedOutFile.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CSVWriter.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CSVWriter.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CacheFileInBuffer.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CacheFileInBuffer.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CacheFileOutBuffer.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CacheFileOutBuffer.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CacheLogQuery.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CacheLogQuery.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CachedLogInfo.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CachedLogInfo.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CompositeInStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CompositeInStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CompositeOutStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CompositeOutStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CopyFollowingLogIterator.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/CopyFollowingLogIterator.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/DictionaryBasedTempPath.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/DictionaryBasedTempPath.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/DiffIntegerInStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/DiffIntegerInStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/DiffIntegerOutStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/DiffIntegerOutStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HierachicalInStreamBase.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HierachicalInStreamBase.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HierachicalOutStreamBase.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HierachicalOutStreamBase.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HighResClock.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HuffmanBase.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HuffmanBase.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HuffmanDecoder.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HuffmanDecoder.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HuffmanEncoder.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/HuffmanEncoder.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/ILogIterator.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/ILogQuery.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/ILogReceiver.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/ILogReceiver.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/IndexPairDictionary.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/IndexPairDictionary.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCache.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCache.sln svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCache.vcproj svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCacheGlobals.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCacheLib.vcproj svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCachePool.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCachePool.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCacheStatistics.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogCacheStatistics.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogIteratorBase.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/LogIteratorBase.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/MappedInFile.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/MappedInFile.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedDWORDInStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedDWORDInStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedDWORDOutStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedDWORDOutStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedIntegerInStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedIntegerInStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedIntegerOutStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedIntegerOutStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedTime64InStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedTime64InStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedTime64OutStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PackedTime64OutStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PathDictionary.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/PathDictionary.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/QuickHash.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/QuickHashMap.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RepositoryInfo.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RepositoryInfo.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RevisionIndex.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RevisionIndex.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RevisionInfoContainer.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RevisionInfoContainer.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RootInStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RootInStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RootOutStream.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/RootOutStream.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/SVNLogQuery.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/SVNLogQuery.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/SkipRevisionInfo.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/SkipRevisionInfo.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/StreamFactory.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/StreamTypeIDs.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/StrictLogIterator.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/StrictLogIterator.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/StringDictonary.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/StringDictonary.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/TokenizedStringContainer.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/TokenizedStringContainer.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/XMLLogReader.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/XMLLogReader.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/XMLLogWriter.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/XMLLogWriter.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/stdafx.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/LogCache/stdafx.h svn:eol-style native
+r13865
+  +dir_prop: branches/RefactorRevGraph svnmerge-integrated /trunk:1-12271%2C13858
+r13941
+r13942
+r13943
+r13944
+r13945
+r13946
+r13950
+r13951
+r13952
+r13954
+r13955
+r13956
+r13957
+r13958
+r13959
+r13960
+r13961
+r13962
+r13963
+r13964
+r13965
+r13966
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionInRange.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionInRange.h svn:eol-style native
+r13973
+r13974
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemovePathsBySubString.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RemovePathsBySubString.h svn:eol-style native
+r13975
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionEntry.h
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraph.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevisionGraph.h
+r14035
+r14036
+r14042
+r14043
+r14044
+r14045
+r14046
+r14047
+r14049
+r14050
+r14051
+r14168
+r14169
+r14170
+r14172
+r14173
+r14174
+r14178
+r14179
+r14180
+r14181
+r14187
+r14188
+r14189
+r14190
+r14195
+r14196
+r14198
+r14199
+r14200
+r14201
+r14213
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StrictOrderNodePositioning.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/StrictOrderNodePositioning.h svn:eol-style native
+r14214
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/UpsideDownLayout.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/UpsideDownLayout.h svn:eol-style native
+r14216
+r14217
+r14218
+r14219
+r14220
+r14221
+r14222
+r14223
+r14224
+r14225
+r14226
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevGraphFilterDlg.cpp
+  -empty_dir: branches/RefactorRevGraph/src/TortoiseProc/RevGraphFilterDlg.h
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevGraphFilterDlg.cpp svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevGraphFilterDlg.cpp svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RevGraphFilterDlg.cpp:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RevGraphFilterDlg.cpp:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevGraphFilterDlg.h svn:eol-style native
+  +file_prop: branches/RefactorRevGraph/src/TortoiseProc/RevisionGraph/RevGraphFilterDlg.h svn:mergeinfo /branches/1.4.x/src/TortoiseProc/RevGraphFilterDlg.h:9134%0A/branches/LogCacheEnhancement/src/TortoiseProc/RevGraphFilterDlg.h:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+r14227

@@ -1,0 +1,12 @@
+r4806
+  +dir_prop: ext/Subversion_dll svn:ignore Subversion_dll.suo%0ASubversion_dll.aps%0ASubversion_dll.ncb%0A
+  +file_prop: ext/Subversion_dll/Subversion_dll.cpp svn:eol-style native
+  +file_prop: ext/Subversion_dll/Subversion_dll.def svn:eol-style native
+  +file_prop: ext/Subversion_dll/Subversion_dll.rc svn:eol-style native
+  +file_prop: ext/Subversion_dll/Subversion_dll.sln svn:eol-style native
+  +file_prop: ext/Subversion_dll/Subversion_dll.vcproj svn:eol-style native
+  +file_prop: ext/Subversion_dll/resource.h svn:eol-style native
+  +file_prop: ext/Subversion_dll/stdafx.cpp svn:eol-style native
+  +file_prop: ext/Subversion_dll/stdafx.h svn:eol-style native
+  +file_prop: ext/apu.hw svn:eol-style native
+  +file_prop: ext/utf.c svn:eol-style native

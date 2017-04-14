@@ -1,0 +1,534 @@
+r13309
+r13310
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.0/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.2/%0Aserf%20http://serf.googlecode.com/svn/tags/0.2.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r13312
+r13316
+r13322
+  +dir_prop: branches/1.5.x/doc/xsl/fa svn:ignore userconfig.xml%0A
+  +file_prop: branches/1.5.x/doc/po/TortoiseMerge_fa.po svn:eol-style native
+  +file_prop: branches/1.5.x/doc/po/TortoiseMerge_fa.po svn:mergeinfo /branches/1.4.x/doc/po/TortoiseMerge.pot:9134%0A/branches/LogCacheEnhancement/doc/po/TortoiseMerge.pot:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252
+r13324
+r13331
+r13336
+  -empty_dir: branches/1.5.x/doc/po/TortoiseMerge_fa.po
+r13339
+r13345
+  +dir_prop: branches/1.5.x/doc/images/sl bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/1.5.x/doc/images/sl bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26task_id%3D%25BUGID%25
+  +dir_prop: branches/1.5.x/doc/images/sl tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.svg%20%3D%20svn:mime-type%3Dimage/svg%2Bxml%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +dir_prop: branches/1.5.x/doc/images/sl tsvn:logminsize 10
+  +dir_prop: branches/1.5.x/doc/images/sl tsvn:projectlanguage 1033
+  +file_prop: branches/1.5.x/doc/images/sl/Authenticate.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/BlameDialog.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Changelist.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Checkout.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Commit.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/CommitProgress.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/CommitSpellcheck.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/CompareRevisions.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/ContextMenuDirControl.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/ContextMenuDirNoControl.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/ContextMenuFileControl.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/ContextMenuFileNoControl.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Copy.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/CreatePatch.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/ExplorerFileMenuFileShortcut.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/ExportURL.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/GetLock.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Import.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/IssueTrackerQuery.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/LogContextMenu.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/LogContextMenu1.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/LogContextMenu2.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/LogMergeTrack.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/LogMessages.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/MergeAll.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/MergeConflictCallback.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/MergeWizardOptions.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/MergeWizardRange.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/MergeWizardReintegrate.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/MergeWizardTree.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Overlays.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Properties.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/PropertyAdd.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/PropertyList.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Relocate.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/RepoStatus.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Repobrowser.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Revert.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/RevisionGraph.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/RightDragMenu.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsBlame.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsColors.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsContext.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsDialog.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsDialog2.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsHookEdit.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsHooks.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsIssueTracker.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsLogCache.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsLogStats.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsMain.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsOverlay.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsOverlayChooser.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsProgs.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsProgsAdv.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsProxy.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/SettingsSavedData.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/StatsByAuthPie.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/StatsByAuthor.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/StatsByDate.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Switch.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TMerge_OnePane.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TMerge_Open.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TMerge_PatchWindow.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TMerge_SettingsColors.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TMerge_SettingsGeneral.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TMerge_ThreePane.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TMerge_Toolbar.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TMerge_TwoPane.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/Thumbs.db svn:mime-type application/octet-stream
+  +file_prop: branches/1.5.x/doc/images/sl/TortoiseBlame.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/TortoiseIDiff.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/UpdateFinished.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/mergeprinciple.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sl/upgradecheck.png svn:mime-type image/png
+r13347
+r13349
+r13351
+r13354
+r13356
+r13359
+r13362
+r13367
+r13372
+r13374
+r13375
+r13376
+r13381
+  +file_prop: branches/1.5.x/doc/Aspell/ru.pws svn:eol-style native
+r13387
+r13390
+r13397
+r13403
+r13405
+r13409
+r13412
+r13414
+r13416
+r13427
+r13429
+r13435
+r13437
+r13440
+r13441
+r13443
+r13445
+r13455
+r13459
+r13461
+r13463
+  -empty_dir: branches/1.5.x/ext/cyrus-SASL/2.1.22-win32
+r13465
+r13472
+r13476
+r13480
+r13485
+r13490
+r13492
+r13494
+r13498
+r13500
+r13502
+r13503
+r13507
+r13510
+  +file_prop: branches/1.5.x/doc/images/en/ContextMenuFileIgnore.png svn:mergeinfo 
+  +file_prop: branches/1.5.x/doc/images/en/ContextMenuFileIgnore.png svn:mime-type image/png
+r13511
+r13512
+r13516
+r13518
+r13519
+r13520
+r13524
+r13526
+r13529
+r13531
+r13534
+r13535
+r13538
+r13539
+r13540
+r13542
+r13544
+r13545
+r13546
+r13548
+r13551
+r13553
+r13555
+r13556
+r13558
+r13560
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.1/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.2/%0Aserf%20http://serf.googlecode.com/svn/tags/0.2.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r13562
+r13572
+r13575
+r13576
+r13578
+r13581
+r13587
+r13592
+r13595
+r13598
+r13600
+r13602
+r13606
+r13608
+  -empty_dir: branches/1.5.x/ext/cyrus-SASL/include/orig_prop.h
+r13612
+r13615
+r13616
+r13619
+r13624
+r13634
+r13636
+r13637
+r13642
+r13645
+r13647
+r13649
+r13651
+r13653
+r13658
+r13660
+r13687
+r13691
+r13695
+r13698
+r13703
+r13705
+r13711
+r13714
+r13717
+r13719
+r13724
+r13728
+r13730
+r13732
+r13735
+r13741
+r13745
+r13747
+  -empty_dir: branches/1.5.x/ext/build/ne_socket.c
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.1/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.3/%0Aserf%20http://serf.googlecode.com/svn/tags/0.2.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r13752
+r13756
+r13757
+r13764
+r13767
+r13769
+r13773
+r13774
+r13777
+r13783
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.2/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.3/%0Aserf%20http://serf.googlecode.com/svn/tags/0.2.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r13786
+r13789
+r13790
+r13791
+r13793
+r13794
+r13795
+r13798
+r13801
+r13808
+r13812
+r13815
+r13817
+r13819
+r13822
+r13826
+  -empty_dir: branches/1.5.x/test/blame/test.ascii.log
+  -empty_dir: branches/1.5.x/test/blame/test.ascii.txt
+r13829
+r13832
+r13834
+r13835
+r13837
+r13838
+r13840
+r13842
+r13846
+r13869
+r13870
+r13872
+r13884
+r13887
+r13888
+r13889
+r13899
+r13902
+r13908
+r13909
+r13914
+r13919
+r13922
+r13926
+r13929
+r13935
+r13939
+r13949
+r13970
+r13978
+r13988
+r13989
+r13991
+r13993
+r13994
+r14000
+r14005
+r14007
+r14016
+r14019
+r14020
+r14028
+r14034
+r14052
+r14056
+r14058
+r14060
+r14062
+r14063
+r14068
+r14074
+r14082
+r14083
+r14085
+r14095
+r14096
+r14100
+r14114
+r14116
+r14126
+r14132
+r14145
+r14147
+r14148
+r14153
+  +file_prop: branches/1.5.x/ext/build/ossl_typ.h svn:eol-style native
+r14155
+r14166
+r14238
+r14256
+r14258
+r14259
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.3/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.3/%0Aserf%20http://serf.googlecode.com/svn/tags/0.2.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r14266
+r14268
+r14297
+r14306
+r14309
+r14357
+r14360
+r14361
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.4/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.3/%0Aserf%20http://serf.googlecode.com/svn/tags/0.2.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r14363
+r14425
+r14435
+r14438
+r14444
+r14446
+r14447
+r14461
+r14572
+r14605
+r14615
+r14663
+r14689
+r14739
+r14740
+r14742
+r14744
+r14745
+r14749
+r14755
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14754
+r14757
+  -empty_dir: branches/1.5.x/Languages/Tortoise_eo.po
+r14770
+r14782
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14754%2C14781
+  +file_prop: branches/1.5.x/contrib/other/diff-scripts/diff-docx.js svn:mergeinfo /branches/1.4.x/contrib/other/diff-scripts/diff-doc.js:9134%0A/branches/LogCacheEnhancement/contrib/other/diff-scripts/diff-doc.js:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk/contrib/other/diff-scripts/diff-docx.js:14781
+  +file_prop: branches/1.5.x/contrib/other/diff-scripts/merge-docx.js svn:mergeinfo /branches/1.4.x/contrib/other/diff-scripts/merge-doc.js:9134%0A/branches/LogCacheEnhancement/contrib/other/diff-scripts/merge-doc.js:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk/contrib/other/diff-scripts/merge-docx.js:14781
+r14786
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14754%2C14781%2C14785
+r14791
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14754%2C14781%2C14785%2C14790
+r14792
+r14793
+r14820
+r14830
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829
+r14836
+r14838
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837
+r14851
+  +file_prop: branches/1.5.x/Languages/Tortoise_uk.po svn:eol-style LF
+r14859
+r14871
+r14877
+r14878
+r14882
+r14883
+r14884
+r14897
+r14905
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904
+r14906
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.5/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.3/%0Aserf%20http://serf.googlecode.com/svn/tags/0.2.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r14908
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907
+r14940
+r14946
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945
+r14950
+r15019
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018
+r15023
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022
+r15049
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048
+r15135
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15134
+r15143
+r15144
+r15145
+r15154
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15134%2C15153
+r15159
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153
+r15161
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160
+r15165
+r15182
+r15184
+r15193
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160%2C15192
+r15209
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160%2C15192%2C15208
+r15277
+r15323
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160%2C15192%2C15208%2C15321-15322
+r15327
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160%2C15192%2C15208%2C15321-15322%2C15326
+r15348
+r15417
+r15432
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160%2C15192%2C15208%2C15321-15322%2C15326%2C15425%2C15430-15431
+  +file_prop: branches/1.5.x/src/SVN/SVNStatusListCtrlHelpers.cpp svn:mergeinfo /trunk/src/SVN/SVNStatusListCtrlHelpers.cpp:15425%2C15430-15431
+r15453
+  +dir_prop: branches/1.5.x svn:mergeinfo /branches/1.4.x:9134%0A/branches/LogCacheEnhancement:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160%2C15192%2C15208%2C15321-15322%2C15326%2C15425%2C15430-15431%2C15452
+r15482
+r15499
+r15505
+r15506
+r15507
+r15516
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.6/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.2.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.2.12/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.4/%0Aserf%20http://serf.googlecode.com/svn/tags/0.3.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r15517
+r15518
+r15520
+r15528
+  +file_prop: branches/1.5.x/doc/images/sl/ContextMenuFileIgnore.png svn:mime-type image/png
+r15566
+  +dir_prop: branches/1.5.x/Languages svn:mergeinfo /branches/1.4.x/Languages:9134%0A/branches/LogCacheEnhancement/Languages:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk:15565%0A/trunk/Languages:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160%2C15192%2C15208%2C15321-15322%2C15326%2C15565
+r15590
+  +file_prop: branches/1.5.x/Languages/Tortoise_sr_spc.po svn:eol-style LF
+  +file_prop: branches/1.5.x/Languages/Tortoise_sr_spl.po svn:eol-style LF
+r15612
+  +dir_prop: branches/1.5.x/doc/images/sr_spc bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/1.5.x/doc/images/sr_spc bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26task_id%3D%25BUGID%25
+  +dir_prop: branches/1.5.x/doc/images/sr_spc tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.svg%20%3D%20svn:mime-type%3Dimage/svg%2Bxml%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +dir_prop: branches/1.5.x/doc/images/sr_spc tsvn:logminsize 10
+  +dir_prop: branches/1.5.x/doc/images/sr_spc tsvn:projectlanguage 1033
+  +dir_prop: branches/1.5.x/doc/images/sr_spl bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/1.5.x/doc/images/sr_spl bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26task_id%3D%25BUGID%25
+  +dir_prop: branches/1.5.x/doc/images/sr_spl tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.svg%20%3D%20svn:mime-type%3Dimage/svg%2Bxml%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +dir_prop: branches/1.5.x/doc/images/sr_spl tsvn:logminsize 10
+  +dir_prop: branches/1.5.x/doc/images/sr_spl tsvn:projectlanguage 1033
+  +file_prop: branches/1.5.x/doc/images/sr_spc/ch02dia1.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spc/ch02dia2.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spc/ch02dia3.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spc/ch02dia4.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spc/ch02dia5.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spc/mergeprinciple.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spl/ch02dia1.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spl/ch02dia2.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spl/ch02dia3.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spl/ch02dia4.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spl/ch02dia5.png svn:mime-type image/png
+  +file_prop: branches/1.5.x/doc/images/sr_spl/mergeprinciple.png svn:mime-type image/png
+r15617
+r15623
+r15632
+  +file_prop: branches/1.5.x/doc/po/TortoiseMerge_sr_spc.po svn:eol-style LF
+  +file_prop: branches/1.5.x/doc/po/TortoiseMerge_sr_spl.po svn:eol-style LF
+r15636
+r15660
+  +file_prop: branches/1.5.x/doc/po/TortoiseSVN_sr_spc.po svn:eol-style LF
+  +file_prop: branches/1.5.x/doc/po/TortoiseSVN_sr_spl.po svn:eol-style LF
+r15676
+r15677
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spc bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spc bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26task_id%3D%25BUGID%25
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spc tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.svg%20%3D%20svn:mime-type%3Dimage/svg%2Bxml%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spc tsvn:logminsize 10
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spc tsvn:projectlanguage 1033
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spl bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spl bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26task_id%3D%25BUGID%25
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spl tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.svg%20%3D%20svn:mime-type%3Dimage/svg%2Bxml%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spl tsvn:logminsize 10
+  +dir_prop: branches/1.5.x/doc/xsl/sr_spl tsvn:projectlanguage 1033
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/htmlchunk.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/htmlchunk.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/htmldefaults.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/htmldefaults.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/htmlhelp.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/htmlhelp.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/htmlsingle.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/htmlsingle.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/lang.build svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/lang.build svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/pdfdoc.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/pdfdoc.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/userconfig.template.xml svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spc/userconfig.template.xml svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/htmlchunk.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/htmlchunk.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/htmldefaults.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/htmldefaults.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/htmlhelp.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/htmlhelp.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/htmlsingle.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/htmlsingle.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/lang.build svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/lang.build svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/pdfdoc.xsl svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/pdfdoc.xsl svn:mime-type text/xml
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/userconfig.template.xml svn:eol-style native
+  +file_prop: branches/1.5.x/doc/xsl/sr_spl/userconfig.template.xml svn:mime-type text/xml
+r15687
+r15690
+r15707
+r15778
+r15783
+r15934
+r15995
+r16488
+  +file_prop: branches/1.5.x/Languages/Tortoise_fa.po svn:mergeinfo /branches/1.4.x/Languages/Tortoise_fa.po:9134%0A/branches/LogCacheEnhancement/Languages/Tortoise_fa.po:9629-9630%2C9653%2C9691-9692%2C9860%2C9864%2C9867%2C9869-9872%2C9876-9880%2C10561-10564%2C10601-10706%2C10821-10866%2C10871-10887%2C11153%2C11155%2C11234-11241%2C11243%2C11246%2C11248-11252%0A/trunk/Languages/Tortoise_fa.po:14372%2C14470%2C14725%2C14754%2C14781%2C14785%2C14790%2C14827%2C14829%2C14837%2C14904%2C14907%2C14945%2C15018%2C15022%2C15048%2C15097%2C15134%2C15153%2C15160%2C15192%2C15208%2C15321-15322%2C15326%2C15565%2C16443-16487%0A/trunk/Tortoise_fa.po:15565
+r16877
+  +dir_prop: branches/1.5.x/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.5.7/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/1.3.8/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/1.3.9/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.28.5/%0Aserf%20http://serf.googlecode.com/svn/tags/0.3.0/%0ATortoiseOverlays%20http://tortoisesvn.tigris.org/svn/tortoisesvn/TortoiseOverlays/version-1.0.4/bin%0A
+r16878
+r16879

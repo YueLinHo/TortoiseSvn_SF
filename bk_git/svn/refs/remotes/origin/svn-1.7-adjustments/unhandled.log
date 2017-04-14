@@ -1,0 +1,14 @@
+r19537
+r19541
+  +dir_prop: branches/svn-1.7-adjustments/ext svn:externals -r%20944296%20https://svn.apache.org/repos/asf/subversion/trunk%20Subversion%0Ahttps://svn.apache.org/repos/asf/apr/apr/tags/1.3.8%20apr%0Ahttps://svn.apache.org/repos/asf/apr/apr-util/tags/1.3.9%20apr-util%0Ahttp://svn.webdav.org/repos/projects/neon/tags/0.29.3%20neon%0Ahttp://serf.googlecode.com/svn/tags/0.6.1%20serf%0A%5E/TortoiseOverlays/version-1.1.2/bin%20TortoiseOverlays%0A
+r19542
+  -empty_dir: branches/svn-1.7-adjustments/test/blame/build.txt.blame
+  -empty_dir: branches/svn-1.7-adjustments/test/blame/build.txt.log
+  +file_prop: branches/svn-1.7-adjustments/src/TortoiseProc/Commands/WcUpgradeCommand.h svn:eol-style native
+  +file_prop: branches/svn-1.7-adjustments/test/blame/test.blame svn:mime-type application/octet-stream
+r19543
+r19544
+r19545
+r19546
+r19547
+r19548

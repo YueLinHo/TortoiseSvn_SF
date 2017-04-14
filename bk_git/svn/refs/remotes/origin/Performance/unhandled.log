@@ -1,0 +1,248 @@
+r15698
+r15700
+r15701
+  +file_prop: branches/Performance/src/LogCache/Containers/BlobDictionary.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Containers/BlobDictionary.h svn:eol-style native
+r15702
+r15752
+r15764
+r15765
+r15766
+r15861
+r15879
+r16019
+  +dir_prop: branches/Performance/src/LogCache svn:ignore Release%0ADebug%0A*.ncb%0A*.opt%0A*.suo%0A*.user%0A%0A.directory%0A
+  +dir_prop: branches/Performance/src/LogCache/Containers svn:ignore *.user%0A%0A.directory%0A
+  +dir_prop: branches/Performance/src/LogCache/Streams svn:ignore *.user%0A%0A.directory%0A
+r16038
+r16039
+r16043
+  +dir_prop: branches/Performance/src/LogCache svn:ignore Release%0ADebug%0A*.ncb%0A*.opt%0A*.suo%0A*.user%0A%0A.directory%0A%0AMakefile.in%0A
+  +dir_prop: branches/Performance/src/LogCache/Containers svn:ignore *.user%0A%0A.directory%0A%0AMakefile.in%0A
+  +dir_prop: branches/Performance/src/LogCache/Streams svn:ignore *.user%0A%0A.directory%0A%0AMakefile.in%0A
+r16044
+r16045
+r16106
+  +file_prop: branches/Performance/src/LogCache/ConnectionState.h svn:eol-style native
+r16107
+r16112
+r16118
+r16119
+r16303
+r16304
+r16362
+r16363
+r16370
+r16371
+r16388
+r16389
+r16390
+r16391
+r16428
+r16429
+r16468
+r16519
+  -empty_dir: branches/Performance/src/LogCache/CachedLogInfo.cpp
+  -empty_dir: branches/Performance/src/LogCache/CachedLogInfo.h
+  -empty_dir: branches/Performance/src/LogCache/RevisionIndex.cpp
+  -empty_dir: branches/Performance/src/LogCache/RevisionIndex.h
+  -empty_dir: branches/Performance/src/LogCache/RevisionInfoContainer.cpp
+  -empty_dir: branches/Performance/src/LogCache/RevisionInfoContainer.h
+  -empty_dir: branches/Performance/src/LogCache/SkipRevisionInfo.cpp
+  -empty_dir: branches/Performance/src/LogCache/SkipRevisionInfo.h
+  +file_prop: branches/Performance/src/LogCache/Containers/CachedLogInfo.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Containers/CachedLogInfo.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Containers/RevisionIndex.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Containers/RevisionIndex.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Containers/RevisionInfoContainer.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Containers/RevisionInfoContainer.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Containers/SkipRevisionInfo.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Containers/SkipRevisionInfo.h svn:eol-style native
+r16529
+r16556
+r16558
+  -empty_dir: branches/Performance/src/LogCache/CSVWriter.cpp
+  -empty_dir: branches/Performance/src/LogCache/CSVWriter.h
+  -empty_dir: branches/Performance/src/LogCache/CopyFollowingLogIterator.cpp
+  -empty_dir: branches/Performance/src/LogCache/CopyFollowingLogIterator.h
+  -empty_dir: branches/Performance/src/LogCache/ILogIterator.h
+  -empty_dir: branches/Performance/src/LogCache/LogIteratorBase.cpp
+  -empty_dir: branches/Performance/src/LogCache/LogIteratorBase.h
+  -empty_dir: branches/Performance/src/LogCache/StrictLogIterator.cpp
+  -empty_dir: branches/Performance/src/LogCache/StrictLogIterator.h
+  -empty_dir: branches/Performance/src/LogCache/XMLLogReader.cpp
+  -empty_dir: branches/Performance/src/LogCache/XMLLogReader.h
+  -empty_dir: branches/Performance/src/LogCache/XMLLogWriter.cpp
+  -empty_dir: branches/Performance/src/LogCache/XMLLogWriter.h
+  +dir_prop: branches/Performance/src/LogCache/Access tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.svg%20%3D%20svn:mime-type%3Dimage/svg%2Bxml%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +file_prop: branches/Performance/src/LogCache/Access/CSVWriter.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/CSVWriter.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/CopyFollowingLogIterator.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/CopyFollowingLogIterator.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/ILogIterator.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/LogCacheAccessLib.vcproj svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/LogIteratorBase.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/LogIteratorBase.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/StrictLogIterator.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/StrictLogIterator.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/XMLLogReader.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/XMLLogReader.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/XMLLogWriter.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/XMLLogWriter.h svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/stdafx.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/LogCache/Access/stdafx.h svn:eol-style native
+r16559
+r16560
+r16562
+r16566
+r16567
+  +dir_prop: branches/Performance/src/LogCache svn:ignore Release%0ADebug%0A*.ncb%0A*.opt%0A*.suo%0A*.user%0A.directory%0A
+  +dir_prop: branches/Performance/src/LogCache/Access svn:ignore Makefile%0AMakefile.in%0A
+  +dir_prop: branches/Performance/src/LogCache/Containers svn:ignore *.user%0A.directory%0AMakefile.in%0AMakefile%0A
+  +dir_prop: branches/Performance/src/LogCache/Streams svn:ignore *.user%0A.directory%0AMakefile.in%0AMakefile%0A
+r16568
+r16569
+r16570
+r16575
+r16584
+r16585
+r16586
+r16633
+r16634
+r16637
+r16638
+r16689
+r16690
+r16693
+r16735
+r16736
+  +dir_prop: branches/Performance/src/AsyncFramework bugtraq:logregex %5BIi%5Dssues%3F:%3F%28%5Cs*%28%2C%7Cand%29%3F%5Cs*%23%5Cd%2B%29%2B%0A%28%5Cd%2B%29
+  +dir_prop: branches/Performance/src/AsyncFramework bugtraq:url http://issues.tortoisesvn.net/%3Fdo%3Ddetails%26task_id%3D%25BUGID%25
+  +dir_prop: branches/Performance/src/AsyncFramework svn:ignore *.user%0A
+  +dir_prop: branches/Performance/src/AsyncFramework tsvn:autoprops *.avi%20%3D%20svn:mime-type%3Dvideo/avi%0A*.bat%20%3D%20svn:eol-style%3Dnative%0A*.bmp%20%3D%20svn:mime-type%3Dimage/bmp%0A*.build%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.c%20%3D%20svn:eol-style%3Dnative%0A*.C%20%3D%20svn:eol-style%3Dnative%0A*.cpp%20%3D%20svn:eol-style%3Dnative%0A*.cur%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.cxx%20%3D%20svn:eol-style%3Dnative%0A*.cs%20%3D%20svn:eol-style%3Dnative%0A*.css%20%3D%20svn:eol-style%3Dnative%0A*.def%20%3D%20svn:eol-style%3Dnative%0A*.dsp%20%3D%20svn:eol-style%3DCRLF%0A*.dsw%20%3D%20svn:eol-style%3DCRLF%0A*.gif%20%3D%20svn:mime-type%3Dimage/gif%0A*.h%20%3D%20svn:eol-style%3Dnative%0A*.hpp%20%3D%20svn:eol-style%3Dnative%0A*.htm%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.html%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/html%0A*.hw%20%3D%20svn:eol-style%3Dnative%0A*.ico%20%3D%20svn:mime-type%3Dimage/x-icon%0A*.idl%20%3D%20svn:eol-style%3Dnative%0A*.inc%20%3D%20svn:eol-style%3Dnative%0A*.jpeg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.jpg%20%3D%20svn:mime-type%3Dimage/jpeg%0A*.js%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/javascript%0A*.manifest%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.php%20%3D%20svn:eol-style%3Dnative%3B%0A*.png%20%3D%20svn:mime-type%3Dimage/png%0A*.po%20%3D%20svn:eol-style%3DLF%0A*.pot%20%3D%20svn:eol-style%3DLF%0A*.psd%20%3D%20svn:mime-type%3Dimage/x-photoshop%0A*.py%20%3D%20svn:eol-style%3Dnative%0A*.rc%20%3D%20svn:eol-style%3Dnative%0A*.rc2%20%3D%20svn:eol-style%3Dnative%0A*.rtf%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/richtext%0A*.sh%20%3D%20svn:eol-style%3Dnative%3Bsvn:executable%0A*.sln%20%3D%20svn:eol-style%3Dnative%0A*.svg%20%3D%20svn:mime-type%3Dimage/svg%2Bxml%0A*.txt%20%3D%20svn:eol-style%3Dnative%0A*.vb%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/vbscript%0A*.vcproj%20%3D%20svn:eol-style%3Dnative%0A*.wav%20%3D%20svn:mime-type%3Daudio/x-wav%0A*.wixproj%20%3D%20svn:eol-style%3Dnative%0A*.wxs%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.wxi%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xml%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A*.xsl%20%3D%20svn:eol-style%3Dnative%3Bsvn:mime-type%3Dtext/xml%0A
+  +dir_prop: branches/Performance/src/AsyncFramework tsvn:logminsize 10
+  +dir_prop: branches/Performance/src/AsyncFramework tsvn:projectlanguage 1033
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncCall.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncCall.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncCall.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncCall.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncCall.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncCall.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncCall.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncFramework.vcproj etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncFramework.vcproj etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncFramework.vcproj etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncFramework.vcproj etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncFramework.vcproj etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/AsyncFramework.vcproj svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.cpp etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.cpp etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.cpp etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.cpp etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.cpp etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.cpp svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/CriticalSection.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/Future.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/Future.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/Future.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/Future.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/Future.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/Future.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/Future.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/IJob.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/IJob.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/IJob.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/IJob.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/IJob.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/IJob.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/IJob.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.cpp etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.cpp etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.cpp etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.cpp etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.cpp etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.cpp svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/JobBase.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.cpp etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.cpp etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.cpp etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.cpp etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.cpp etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.cpp svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/JobScheduler.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.cpp etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.cpp etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.cpp etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.cpp etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.cpp etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.cpp svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/Thread.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.cpp etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.cpp etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.cpp etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.cpp etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.cpp etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.cpp svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/WaitableEvent.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.cpp etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.cpp etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.cpp etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.cpp etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.cpp etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.cpp svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.cpp svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.h etas:confidentiality internal
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.h etas:owner stfuhrma
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.h etas:pm_project_nr 00000
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.h etas:project_title N/A
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.h etas:review_state draft
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.h svn:eol-style native
+  +file_prop: branches/Performance/src/AsyncFramework/stdafx.h svn:keywords URL%20HeadURL%20Author%20LastChangedBy%20Date%20LastChangedDate%20Rev%20Revision%20LastChangedRevision%20Id
+r16737
+  +dir_prop: branches/Performance/src/LogCache/Access svn:ignore Makefile%0AMakefile.in%0A*.user%0A
+r16738
+r16739
+r16740
+r16741
+r16742
+r16767
+r16771
+r16773
+r16774
+r16775
+r16776

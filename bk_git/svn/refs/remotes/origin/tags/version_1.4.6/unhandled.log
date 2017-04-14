@@ -1,0 +1,5 @@
+r11645
+  +dir_prop: . svn:mergeinfo 
+r11646
+  +dir_prop: tags/version_1.4.6/ext svn:externals Subversion%20https://svn.collab.net/repos/svn/tags/1.4.6/%0Aapr%20https://svn.apache.org/repos/asf/apr/apr/tags/0.9.12/%0Aapr-util%20https://svn.apache.org/repos/asf/apr/apr-util/tags/0.9.12/%0Aapr-iconv%20https://svn.apache.org/repos/asf/apr/apr-iconv/tags/0.9.7/%0Aneon%20http://svn.webdav.org/repos/projects/neon/tags/0.26.4/%0A
+r11647
