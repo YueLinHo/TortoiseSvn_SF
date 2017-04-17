@@ -1,0 +1,545 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	autocrlf = false
+[submodule "ext/apr"]
+	url = https://github.com/YueLinHo/apr.git
+[submodule "ext/apr-util"]
+	url = https://github.com/YueLinHo/apr-util.git
+[submodule "ext/CrashServer/external/zlib"]
+	url = https://github.com/madler/zlib.git
+[submodule "ext/serf"]
+	url = https://github.com/YueLinHo/serf.git
+[submodule "ext/snarl"]
+	url = https://github.com/YueLinHo/snarl.git
+[submodule "ext/Subversion"]
+	url = https://github.com/YueLinHo/Subversion.git
+[remote "origin"]
+	puttykeyfile = 
+[svn-remote "svn"]
+	url = svn://svn.code.sf.net/p/tortoisesvn/code
+	fetch = trunk:refs/remotes/origin/trunk
+	branches = branches/*:refs/remotes/origin/*
+	tags = tags/*:refs/remotes/origin/tags/*
+[remote "yhub"]
+	url = https://github.com/YueLinHo/TortoiseSvn.git
+	fetch = +refs/heads/*:refs/remotes/yhub/*
+	tagopt = --tags
+	prune = false
+[branch "trunk"]
+	remote = yhub
+	merge = refs/heads/trunk[remote "yhub"]
+	url = https://github.com/YueLinHo/TortoiseSvn.git
+	fetch = +refs/heads/*:refs/remotes/yhub/*
+[branch "1.0.x"]
+	remote = yhub
+	merge = refs/heads/1.0.x
+[branch "1.7.x"]
+	remote = yhub
+	merge = refs/heads/1.7.x
+[branch "1.8.x"]
+	remote = yhub
+	merge = refs/heads/1.8.x
+[branch "1.9.x"]
+	remote = yhub
+	merge = refs/heads/1.9.x
+[branch "GitTest"]
+	remote = yhub
+	merge = refs/heads/GitTest
+[branch "dimentiy_wix"]
+	remote = yhub
+	merge = refs/heads/dimentiy_wix
+[branch "master"]
+	remote = yhub
+	merge = refs/heads/master
+[branch "release-0.20"]
+	remote = yhub
+	merge = refs/heads/release-0.20
+[branch "release-0.21"]
+	remote = yhub
+	merge = refs/heads/release-0.21
+[branch "release-0.22"]
+	remote = yhub
+	merge = refs/heads/release-0.22
+[branch "tags/version-0.9.2"]
+	remote = yhub
+	merge = refs/heads/tags/version-0.9.2
+[branch "tags/version-1.7.12"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.12
+[branch "tags/version-1.7.13"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.13
+[branch "tags/version-1.7.14"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.14
+[branch "tags/version-1.7.15"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.15
+[branch "tags/version-1.8.0"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.0
+[branch "tags/version-1.8.1"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.1
+[branch "tags/version-1.8.10"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.10
+[branch "tags/version-1.8.11"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.11
+[branch "tags/version-1.8.12"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.12
+[branch "tags/version-1.8.2"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.2
+[branch "tags/version-1.8.3"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.3
+[branch "tags/version-1.8.4"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.4
+[branch "tags/version-1.8.5"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.5
+[branch "tags/version-1.8.6"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.6
+[branch "tags/version-1.8.7"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.7
+[branch "tags/version-1.8.8"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.8
+[branch "tags/version-1.8.9"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.8.9
+[branch "tags/version-1.9.0"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.9.0
+[branch "tags/version-1.9.1"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.9.1
+[branch "tags/version-1.9.2"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.9.2
+[branch "tags/version-1.9.3"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.9.3
+[branch "tags/version-1.9.4"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.9.4
+[branch "tags/version_0.09.2"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.09.2
+[branch "tags/version_0.12"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.12
+[branch "tags/version_0.14"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.14
+[branch "tags/version_0.15"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.15
+[branch "tags/version_0.15.1"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.15.1
+[branch "tags/version_0.15.2"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.15.2
+[branch "tags/version_0.16"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.16
+[branch "tags/version_0.17"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.17
+[branch "tags/version_0.18"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.18
+[branch "tags/version_0.19"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.19
+[branch "tags/version_0.20"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.20
+[branch "tags/version_0.20.1"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.20.1
+[branch "tags/version_0.21"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.21
+[branch "tags/version_0.22"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.22
+[branch "tags/version_0.24"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.24
+[branch "tags/version_0.26"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.26
+[branch "tags/version_0.9.2"]
+	remote = yhub
+	merge = refs/heads/tags/version_0.9.2
+[branch "tags/version_1.0"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0
+[branch "tags/version_1.0.1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0.1
+[branch "tags/version_1.0.2"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0.2
+[branch "tags/version_1.0.3"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0.3
+[branch "tags/version_1.0.4"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0.4
+[branch "tags/version_1.0.5"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0.5
+[branch "tags/version_1.0.6"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0.6
+[branch "tags/version_1.0.7"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0.7
+[branch "tags/version_1.0.8"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.0.8
+[branch "tags/version_1.1.0"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.0
+[branch "tags/version_1.1.0RC1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.0RC1
+[branch "tags/version_1.1.0RC2"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.0RC2
+[branch "version_1.0.8"]
+	remote = yhub
+	merge = refs/heads/version_1.0.8
+[branch "1.1.3"]
+	remote = yhub
+	merge = refs/heads/1.1.3
+[branch "revisiongraph"]
+	remote = yhub
+	merge = refs/heads/revisiongraph
+[branch "tags/version_1.1.1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.1
+[branch "tags/version_1.1.2"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.2
+[branch "tags/version_1.1.3"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.3
+[branch "tags/version_1.1.4"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.4
+[branch "tags/version_1.1.5"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.5
+[branch "tags/version_1.1.6"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.6
+[branch "tags/version_1.1.7"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.7
+[branch "tags/version_1.1.7@3240"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.1.7@3240
+[branch "tags/version_1.2.0"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.2.0
+[branch "tags/version_1.2.0RC1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.2.0RC1
+[branch "version_1.1.x"]
+	remote = yhub
+	merge = refs/heads/version_1.1.x
+[branch "version_1.2.x"]
+	remote = yhub
+	merge = refs/heads/version_1.2.x
+[branch "willdev"]
+	remote = yhub
+	merge = refs/heads/willdev
+[branch "1.2.x"]
+	remote = yhub
+	merge = refs/heads/1.2.x
+[branch "1.3.x"]
+	remote = yhub
+	merge = refs/heads/1.3.x
+[branch "PeteSetupDev"]
+	remote = yhub
+	merge = refs/heads/PeteSetupDev
+[branch "SVN_Dll"]
+	remote = yhub
+	merge = refs/heads/SVN_Dll
+[branch "tags/version_1.2.1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.2.1
+[branch "tags/version_1.2.2"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.2.2
+[branch "tags/version_1.2.3"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.2.3
+[branch "tags/version_1.2.4"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.2.4
+[branch "tags/version_1.2.5"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.2.5
+[branch "tags/version_1.2.6"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.2.6
+[branch "tags/version_1.3.0"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.3.0
+[branch "tags/version_1.3.0RC1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.3.0RC1
+[branch "tags/version_1.3.0RC2"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.3.0RC2
+[branch "tags/version_1.3.1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.3.1
+[branch "tags/version_1.3.2"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.3.2
+[branch "tags/version_1.3.3"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.3.3
+[branch "tags/version_1.3.4"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.3.4
+[branch "tags/version_1.3.5"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.3.5
+[branch "tags/version_1.4.0"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.0
+[branch "tags/version_1.4.0RC1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.0RC1
+[branch "x64"]
+	remote = yhub
+	merge = refs/heads/x64
+[branch "tags/version_1.4.8"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.8
+[branch "1.3.x-x64"]
+	remote = yhub
+	merge = refs/heads/1.3.x-x64
+[branch "1.4.x"]
+	remote = yhub
+	merge = refs/heads/1.4.x
+[branch "1.5-LogCaching"]
+	remote = yhub
+	merge = refs/heads/1.5-LogCaching
+[branch "LogCacheEnhancement"]
+	remote = yhub
+	merge = refs/heads/LogCacheEnhancement
+[branch "LogCaching"]
+	remote = yhub
+	merge = refs/heads/LogCaching
+[branch "RefactorRevGraph"]
+	remote = yhub
+	merge = refs/heads/RefactorRevGraph
+[branch "RevisionGraphRewrite"]
+	remote = yhub
+	merge = refs/heads/RevisionGraphRewrite
+[branch "ShowUserProps"]
+	remote = yhub
+	merge = refs/heads/ShowUserProps
+[branch "issue_334"]
+	remote = yhub
+	merge = refs/heads/issue_334
+[branch "tags/version-1.5.0"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.0
+[branch "tags/version-1.5.0-alpha1"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.0-alpha1
+[branch "tags/version-1.5.0-beta1"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.0-beta1
+[branch "tags/version-1.5.0-rc1"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.0-rc1
+[branch "tags/version-1.5.0-rc2"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.0-rc2
+[branch "tags/version-1.5.0-rc3"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.0-rc3
+[branch "tags/version-1.5.1"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.1
+[branch "tags/version-1.5.2"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.2
+[branch "tags/version-1.5.3"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.3
+[branch "tags/version-1.5.4"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.4
+[branch "tags/version-1.5.5"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.5
+[branch "tags/version_1.4.1"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.1
+[branch "tags/version_1.4.2"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.2
+[branch "tags/version_1.4.3"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.3
+[branch "tags/version_1.4.4"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.4
+[branch "tags/version_1.4.5"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.5
+[branch "tags/version_1.4.6"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.6
+[branch "tags/version_1.4.7"]
+	remote = yhub
+	merge = refs/heads/tags/version_1.4.7
+[branch "1.5.x"]
+	remote = yhub
+	merge = refs/heads/1.5.x
+[branch "Performance"]
+	remote = yhub
+	merge = refs/heads/Performance
+[branch "RepoBrowser"]
+	remote = yhub
+	merge = refs/heads/RepoBrowser
+[branch "tags/version-1.5.10"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.10
+[branch "tags/version-1.5.6"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.6
+[branch "tags/version-1.5.7"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.7
+[branch "tags/version-1.5.8"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.8
+[branch "tags/version-1.5.9"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.5.9
+[branch "tags/version-1.6.0"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.0
+[branch "tags/version-1.6.1"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.1
+[branch "tags/version-1.6.2"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.2
+[branch "tags/version-1.6.3"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.3
+[branch "tags/version-1.6.4"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.4
+[branch "svn-1.7-adjustments"]
+	remote = yhub
+	merge = refs/heads/svn-1.7-adjustments
+[branch "tags/version-1.6.10"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.10
+[branch "tags/version-1.6.11"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.11
+[branch "tags/version-1.6.5"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.5
+[branch "tags/version-1.6.6"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.6
+[branch "tags/version-1.6.7"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.7
+[branch "tags/version-1.6.8"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.8
+[branch "tags/version-1.6.9"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.9
+[branch "transifex-migration"]
+	remote = yhub
+	merge = refs/heads/transifex-migration
+[branch "transifex-test"]
+	remote = yhub
+	merge = refs/heads/transifex-test
+[branch "1.6.x"]
+	remote = yhub
+	merge = refs/heads/1.6.x
+[branch "tags/version-1.6.12"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.12
+[branch "tags/version-1.6.13"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.13
+[branch "tags/version-1.6.14"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.14
+[branch "tags/version-1.6.15"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.15
+[branch "tags/version-1.6.16"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.6.16
+[branch "issue41"]
+	remote = yhub
+	merge = refs/heads/issue41
+[branch "tags/version-1.7.0"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.0
+[branch "tags/version-1.7.1"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.1
+[branch "tags/version-1.7.10"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.10
+[branch "tags/version-1.7.11"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.11
+[branch "tags/version-1.7.2"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.2
+[branch "tags/version-1.7.3"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.3
+[branch "tags/version-1.7.4"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.4
+[branch "tags/version-1.7.5"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.5
+[branch "tags/version-1.7.6"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.6
+[branch "tags/version-1.7.7"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.7
+[branch "tags/version-1.7.8"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.8
+[branch "tags/version-1.7.9"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.7.9
+[branch "tags/version-1.9.5"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.9.5
