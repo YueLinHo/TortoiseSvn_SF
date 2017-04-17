@@ -2,9 +2,9 @@
 ' TortoiseSVN Diff script for Mathematica notebooks
 '
 ' Last commit by:
-' $Author$
-' $Date$
-' $Rev$
+' $Author: XhmikosR $
+' $Date: 2014-06-18 18:39:38 +0800 (週三, 18 六月 2014) $
+' $Rev: 25592 $
 '
 ' Authors:
 ' Szabolcs Horvát, 2008

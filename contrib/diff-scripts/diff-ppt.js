@@ -6,9 +6,9 @@
 // This file is distributed under the same license as TortoiseSVN
 //
 // Last commit by:
-// $Author$
-// $Date$
-// $Rev$
+// $Author: xhmikosr $
+// $Date: 2016-04-11 16:13:04 +0800 (週一, 11 四月 2016) $
+// $Rev: 27268 $
 //
 // Authors:
 // Arne Moor, 2006

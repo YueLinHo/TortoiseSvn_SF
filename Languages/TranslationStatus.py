@@ -3,9 +3,9 @@
 # Copyright (C) 2009 the TortoiseSVN team
 # This file is distributed under the same license as TortoiseSVN
 #
-# $Author$
-# $Date$
-# $Rev$
+# $Author: XhmikosR $
+# $Date: 2013-12-02 17:40:38 +0800 (週一, 02 十二月 2013) $
+# $Rev: 25022 $
 #
 # Author: Luebbe Onken 2009
 #

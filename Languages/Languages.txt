@@ -3,9 +3,9 @@
 # This file is distributed under the same license as TortoiseSVN
 #
 # Last commit by:
-# $Author$
-# $Date$
-# $Rev$
+# $Author: luebbe.tortoisesvn $
+# $Date: 2014-12-10 15:48:49 +0800 (週三, 10 十二月 2014) $
+# $Rev: 26100 $
 #
 # ======================================================================
 #

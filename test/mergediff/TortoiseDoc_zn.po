@@ -4,9 +4,9 @@
 # This file is distributed under the same license as TortoiseSVN
 # 
 # Last commit by:
-# $Author$
-# $Date$
-# $Rev$
+# $Author: xhmikosr $
+# $Date: 2015-04-04 22:48:24 +0800 (週六, 04 四月 2015) $
+# $Rev: 26431 $
 # 
 # Authors:
 msgid ""

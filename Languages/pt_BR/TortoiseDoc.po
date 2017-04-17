@@ -4,9 +4,9 @@
 # This file is distributed under the same license as TortoiseSVN
 # 
 # Last commit by:
-# $Author$
-# $Date$
-# $Rev$
+# $Author: luebbe $
+# $Date: 2017-03-06 17:40:18 +0800 (週一, 06 三月 2017) $
+# $Rev: 27749 $
 # 
 # Authors:
 # Translators:

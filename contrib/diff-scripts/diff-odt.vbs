@@ -6,9 +6,9 @@
 ' This file is distributed under the same license as TortoiseSVN
 '
 ' Last commit by:
-' $Author$
-' $Date$
-' $Rev$
+' $Author: XhmikosR $
+' $Date: 2014-06-18 18:39:38 +0800 (週三, 18 六月 2014) $
+' $Rev: 25592 $
 '
 ' Authors:
 ' Jonathan Ashley, 2007

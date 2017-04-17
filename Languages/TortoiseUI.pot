@@ -5,9 +5,9 @@
 # This file is distributed under the same license as TortoiseSVN
 #
 # Last commit by:
-# $Author$
-# $Date$
-# $Rev$
+# $Author: steveking $
+# $Date: 2017-03-11 04:06:00 +0800 (週六, 11 三月 2017) $
+# $Rev: 27753 $
 #
 # Authors:
 msgid ""

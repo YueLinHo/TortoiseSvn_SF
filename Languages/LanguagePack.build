@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!--
 ============================================================
- $Date$
- $Author$
- $Rev$
+ $Date: 2017-04-08 03:58:58 +0800 (週六, 08 四月 2017) $
+ $Author: steveking $
+ $Rev: 27775 $
 ============================================================
 
 NAnt build script for the TortoiseSVN language pack installers
