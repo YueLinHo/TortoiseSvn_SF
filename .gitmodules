@@ -1,12 +1,12 @@
 [submodule "ext/Subversion"]
 	path = ext/Subversion
-	url = git://git.apache.org/subversion.git
+	url = https://github.com/YueLinHo/Subversion.git
 [submodule "ext/apr"]
 	path = ext/apr
-	url = git://git.apache.org/apr.git
+	url = https://github.com/YueLinHo/apr.git
 [submodule "ext/apr-util"]
 	path = ext/apr-util
-	url = git://git.apache.org/apr-util.git
+	url = https://github.com/YueLinHo/apr-util.git
 [submodule "ext/serf"]
 	path = ext/serf
 	url = https://github.com/YueLinHo/serf.git
