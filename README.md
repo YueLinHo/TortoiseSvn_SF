@@ -25,4 +25,6 @@ Save my time, and maybe yours, since TortoiseSVN is not a small repository (almo
   `git.exe svn clone "svn://svn.code.sf.net/p/tortoisesvn/code/" "D:\TortoiseSvn-git" -T trunk -b branches -t tags`
   **NOTE:** I am using `svn://`, instead of `https://`.
 - Run `git config core.filemode false` to get rid of **file mode change 100755 => 100644**
-
+- Use [Commit Monitor](http://stefanstools.sourceforge.net/CommitMonitor.html)
+  - URL to monitor: `https://svn.code.sf.net/p/tortoisesvn/code`
+  - Script/Command to call when new revisions are detected: `"C:\Program Files\TortoiseSVN\bin\TortoiseProc.exe" /command:update /path:"D:\SVN\TortoiseSvn"`
