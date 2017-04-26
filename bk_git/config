@@ -30,7 +30,7 @@
 	prune = false
 [branch "trunk"]
 	remote = yhub
-	merge = refs/heads/trunk[remote "yhub"]
+	merge = refs/heads/trunk
 	url = https://github.com/YueLinHo/TortoiseSvn.git
 	fetch = +refs/heads/*:refs/remotes/yhub/*
 [branch "1.0.x"]
