@@ -1,6 +1,6 @@
 // TortoiseSVN - a Windows shell extension for easy version control
 
-// Copyright (C) 2003-2016 - TortoiseSVN
+// Copyright (C) 2003-2017 - TortoiseSVN
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -25,6 +25,7 @@
 #include "TaskbarUUID.h"
 #include "Tooltip.h"
 #include "CommonDialogFunctions.h"
+#include "CommonAppUtils.h"
 
 #include <Dwmapi.h>
 #pragma comment(lib, "Dwmapi.lib")
@@ -358,23 +359,11 @@ private:
     virtual void HtmlHelp(DWORD_PTR dwData, UINT nCmd = 0x000F)
     {
         UNREFERENCED_PARAMETER(nCmd);
-        CWinApp* pApp = AfxGetApp();
-        ASSERT_VALID(pApp);
-        ASSERT(pApp->m_pszHelpFilePath != NULL);
-        // to call HtmlHelp the m_fUseHtmlHelp must be set in
-        // the application's constructor
-        ASSERT(pApp->m_eHelpType == afxHTMLHelp);
 
-        CWaitCursor wait;
-
-        CString cmd;
-        cmd.Format(L"HH.exe -mapid %Iu \"%s\"", dwData, pApp->m_pszHelpFilePath);
-        if (!CCreateProcessHelper::CreateProcessDetached(NULL, cmd))
+        if (!CCommonAppUtils::StartHtmlHelp(dwData))
         {
-            cmd.ReleaseBuffer();
             AfxMessageBox(AFX_IDP_FAILED_TO_LAUNCH_HELP);
         }
-        cmd.ReleaseBuffer();
     }
 protected:
     void OnCompositionChanged()

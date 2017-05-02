@@ -1,6 +1,6 @@
 // TortoiseSVN - a Windows shell extension for easy version control
 
-// Copyright (C) 2010-2012, 2014, 2016 - TortoiseSVN
+// Copyright (C) 2010-2012, 2014, 2016-2017 - TortoiseSVN
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -129,6 +129,8 @@ public:
 
     // Wrapper for LoadImage(IMAGE_ICON)
     static HICON LoadIconEx(UINT resourceId, UINT cx, UINT cy, UINT fuLoad);
+
+    static bool StartHtmlHelp(DWORD_PTR id);
 protected:
     CCommonAppUtils(void){};
     ~CCommonAppUtils(void){};

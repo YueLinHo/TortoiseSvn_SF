@@ -1,6 +1,6 @@
 ﻿// TortoiseSVN - a Windows shell extension for easy version control
 
-// Copyright (C) 2010-2016 - TortoiseSVN
+// Copyright (C) 2010-2017 - TortoiseSVN
 
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License
@@ -760,4 +760,19 @@ HICON CCommonAppUtils::LoadIconEx(UINT resourceId, UINT cx, UINT cy, UINT fuLoad
 {
     return (HICON)LoadImage(AfxGetResourceHandle(), MAKEINTRESOURCE(resourceId),
                             IMAGE_ICON, cx, cy, fuLoad);
+}
+
+bool CCommonAppUtils::StartHtmlHelp(DWORD_PTR id)
+{
+    CWinApp* pApp = AfxGetApp();
+    ASSERT_VALID(pApp);
+    ASSERT(pApp->m_pszHelpFilePath != NULL);
+    // to call HtmlHelp the m_fUseHtmlHelp must be set in
+    // the application's constructor
+    ASSERT(pApp->m_eHelpType == afxHTMLHelp);
+
+    CString cmd;
+    cmd.Format(L"HH.exe -mapid %Iu \"%s\"", id, pApp->m_pszHelpFilePath);
+
+    return CCreateProcessHelper::CreateProcessDetached(NULL, cmd);
 }
