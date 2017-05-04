@@ -36,7 +36,6 @@ CFilterEdit::CFilterEdit() : m_hIconCancelNormal(NULL)
     , m_iCancelClickedMessageId(WM_FILTEREDIT_CANCELCLICKED)
     , m_pValidator(NULL)
     , m_backColor(GetSysColor(COLOR_WINDOW))
-    , m_brBack(NULL)
 {
     m_rcEditArea.SetRect(0, 0, 0, 0);
     m_rcButtonArea.SetRect(0, 0, 0, 0);
@@ -53,8 +52,6 @@ CFilterEdit::~CFilterEdit()
         DestroyIcon(m_hIconCancelPressed);
     if (m_hIconInfo)
         DestroyIcon(m_hIconInfo);
-    if (m_brBack)
-        DeleteObject(m_brBack);
 }
 
 BEGIN_MESSAGE_MAP(CFilterEdit, CEdit)
@@ -93,7 +90,7 @@ BOOL CFilterEdit::PreTranslateMessage( MSG* pMsg )
     return CEdit::PreTranslateMessage(pMsg);
 }
 
-BOOL CFilterEdit::SetCancelBitmaps(UINT uCancelNormal, UINT uCancelPressed, BOOL bShowAlways)
+BOOL CFilterEdit::SetCancelBitmaps(UINT uCancelNormal, UINT uCancelPressed, int cx96dpi, int cy96dpi, BOOL bShowAlways)
 {
     m_bShowCancelButtonAlways = bShowAlways;
 
@@ -102,8 +99,8 @@ BOOL CFilterEdit::SetCancelBitmaps(UINT uCancelNormal, UINT uCancelPressed, BOOL
     if (m_hIconCancelPressed)
         DestroyIcon(m_hIconCancelPressed);
 
-    m_hIconCancelNormal = (HICON)LoadImage(AfxGetResourceHandle(), MAKEINTRESOURCE(uCancelNormal), IMAGE_ICON, 0, 0, LR_DEFAULTCOLOR);
-    m_hIconCancelPressed = (HICON)LoadImage(AfxGetResourceHandle(), MAKEINTRESOURCE(uCancelPressed), IMAGE_ICON, 0, 0, LR_DEFAULTCOLOR);
+    m_hIconCancelNormal = LoadDpiScaledIcon(uCancelNormal, cx96dpi, cy96dpi);
+    m_hIconCancelPressed = LoadDpiScaledIcon(uCancelPressed, cx96dpi, cy96dpi);
 
     if ((m_hIconCancelNormal == 0) || (m_hIconCancelPressed == 0))
         return FALSE;
@@ -114,12 +111,12 @@ BOOL CFilterEdit::SetCancelBitmaps(UINT uCancelNormal, UINT uCancelPressed, BOOL
     return TRUE;
 }
 
-BOOL CFilterEdit::SetInfoIcon(UINT uInfo)
+BOOL CFilterEdit::SetInfoIcon(UINT uInfo, int cx96dpi, int cy96dpi)
 {
     if (m_hIconInfo)
         DestroyIcon(m_hIconInfo);
 
-    m_hIconInfo = (HICON)LoadImage(AfxGetResourceHandle(), MAKEINTRESOURCE(uInfo), IMAGE_ICON, 0, 0, LR_DEFAULTCOLOR);
+    m_hIconInfo = LoadDpiScaledIcon(uInfo, cx96dpi, cy96dpi);
 
     if (m_hIconInfo == 0)
         return FALSE;
@@ -324,11 +321,10 @@ void CFilterEdit::Validate()
 {
     if (m_pValidator)
     {
-        int len = GetWindowTextLength();
-        std::unique_ptr<TCHAR[]> pBuf (new TCHAR[len+1]);
-        GetWindowText(pBuf.get(), len+1);
+        CString text;
+        GetWindowText(text);
         m_backColor = GetSysColor(COLOR_WINDOW);
-        if (!m_pValidator->Validate(pBuf.get()))
+        if (!m_pValidator->Validate(text))
         {
             // Use a background color slightly shifted to red.
             // We do this by increasing red component and decreasing green and blue.
@@ -343,9 +339,9 @@ void CFilterEdit::Validate()
             g = g * (100 - SHIFT_PRECENTAGE) / 100;
             b = b * (100 - SHIFT_PRECENTAGE) / 100;
             m_backColor = RGB(r, g, b);
-            if (m_brBack)
-                DeleteObject(m_brBack);
-            m_brBack = CreateSolidBrush(m_backColor);
+
+            m_brBack.DeleteObject();
+            m_brBack.CreateSolidBrush(m_backColor);
         }
     }
 }
@@ -389,6 +385,16 @@ void CFilterEdit::DrawDimText()
     return;
 }
 
+HICON CFilterEdit::LoadDpiScaledIcon(UINT resourceId, int cx96dpi, int cy96dpi)
+{
+    CWindowDC dc(this);
+
+    int cx = MulDiv(cx96dpi, dc.GetDeviceCaps(LOGPIXELSX), 96);
+    int cy = MulDiv(cy96dpi, dc.GetDeviceCaps(LOGPIXELSY), 96);
+
+    return (HICON)LoadImage(AfxGetResourceHandle(), MAKEINTRESOURCE(resourceId), IMAGE_ICON, cx, cy, LR_DEFAULTCOLOR);
+}
+
 void CFilterEdit::OnEnKillfocus()
 {
     InvalidateRect(NULL);
@@ -417,10 +423,8 @@ LRESULT CFilterEdit::OnPaste(WPARAM, LPARAM)
 
         // get the current text
 
-        int len = GetWindowTextLength();
-        std::unique_ptr<TCHAR[]> pBuf (new TCHAR[len+1]);
-        GetWindowText(pBuf.get(), len+1);
-        CString text = pBuf.get();
+        CString text;
+        GetWindowText(text);
 
         // construct the new text
 
