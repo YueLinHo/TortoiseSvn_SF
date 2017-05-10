@@ -477,7 +477,6 @@
     <ClInclude Include="..\SVN\TSVNAuth.h" />
     <ClInclude Include="..\SVN\TSVNPath.h" />
     <ClInclude Include="..\Utils\AutoComplete.h" />
-    <ClInclude Include="..\Utils\AutoThemeData.h" />
     <ClInclude Include="..\Utils\BugTraqAssociations.h" />
     <ClInclude Include="..\Utils\Callback.h" />
     <ClInclude Include="..\Utils\ClipboardHelper.h" />
@@ -549,7 +548,6 @@
     <ClInclude Include="..\Utils\SelectFileFilter.h" />
     <ClInclude Include="..\Utils\ShellUpdater.h" />
     <ClInclude Include="..\Utils\SmartHandle.h" />
-    <ClInclude Include="..\Utils\stdex_vector.h" />
     <ClInclude Include="..\Utils\StdioFileT.h" />
     <ClInclude Include="..\Utils\StringBuffer.h" />
     <ClInclude Include="..\Utils\StringReferenceWrapper.h" />
