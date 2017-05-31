@@ -3,5 +3,5 @@
 [svn-remote "svn"]
 	reposRoot = svn://svn.code.sf.net/p/tortoisesvn/code
 	uuid = 154be670-7969-47af-9ab0-c6fb378d2295
-	branches-maxRev = 27842
-	tags-maxRev = 27842
+	branches-maxRev = 27850
+	tags-maxRev = 27850
