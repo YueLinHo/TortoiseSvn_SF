@@ -16,10 +16,22 @@
 // along with this program; if not, write to the Free Software Foundation,
 // 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 #include "stdafx.h"
+
+#pragma warning(push)
+#include "apr_pools.h"
+#include "svn_error.h"
+#include "svn_client.h"
+#include "svn_dirent_uri.h"
+#include "svn_dso.h"
+#pragma warning(pop)
 #include <objbase.h>
 #include "SubWCRevCOM_h.h"
 #include "SubWCRevCOM_i.c"
 #include "SubWCRevCOM.h"
+
+#include "Register.h"
+#include "UnicodeUtils.h"
+#include <atlbase.h>
 
 #include <tchar.h>
 #include <windows.h>
@@ -27,17 +39,6 @@
 #include <Shellapi.h>
 #include <comutil.h>
 #include <memory>
-
-#pragma warning(push)
-#include "apr_pools.h"
-#include "svn_error.h"
-#include "svn_client.h"
-#include "svn_path.h"
-#include "svn_dso.h"
-#pragma warning(pop)
-#include "Register.h"
-#include "UnicodeUtils.h"
-#include <atlbase.h>
 
 STDAPI DllRegisterServer();
 STDAPI DllUnregisterServer();
@@ -199,6 +200,10 @@ HRESULT SubWCRev::GetWCInfoInternal(/*[in]*/ BSTR wcPath, /*[in]*/VARIANT_BOOL f
     SecureZeroMemory(SubStat.Author, sizeof(SubStat.Author));
     SecureZeroMemory(&SubStat.LockData, sizeof(SubStat.LockData));
 
+    if ((wcPath == nullptr) || (wcPath[0] == 0))
+        return S_FALSE;
+    if (!PathFileExists(wcPath))
+        return S_FALSE;
 
     apr_pool_t * pool;
     apr_pool_create_ex (&pool, NULL, NULL, NULL);
@@ -210,8 +215,8 @@ HRESULT SubWCRev::GetWCInfoInternal(/*[in]*/ BSTR wcPath, /*[in]*/VARIANT_BOOL f
         svn_wc_set_adm_dir("_svn", pool);
     }
 
-    char *wc_utf8 = Utf16ToUtf8((WCHAR*)wcPath, pool);
-    const char * internalpath = svn_path_internal_style (wc_utf8, pool);
+    char *wc_utf8 = Utf16ToUtf8(wcPath, pool);
+    const char * internalpath = svn_dirent_internal_style(wc_utf8, pool);
 
     apr_hash_t * config = nullptr;;
     svn_config_get_config(&(config), nullptr, pool);
