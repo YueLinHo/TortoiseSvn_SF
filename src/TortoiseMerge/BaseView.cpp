@@ -423,7 +423,7 @@ void CBaseView::UpdateStatusBar()
                 m_pMainFrame->FillEOLButton(pButton, ID_INDICATOR_BOTTOMEOLSTART);
                 apBtnGroupBottom->AddButton(pButton);
                 pButton = new CMFCRibbonButton(ID_INDICATOR_BOTTOMVIEWCOMBOTABMODE, L"");
-                m_pMainFrame->FillEOLButton(pButton, ID_INDICATOR_BOTTOMTABMODESTART);
+                m_pMainFrame->FillTabModeButton(pButton, ID_INDICATOR_BOTTOMTABMODESTART);
                 apBtnGroupBottom->AddButton(pButton);
                 apBtnGroupBottom->AddButton(new CMFCRibbonStatusBarPane(ID_INDICATOR_BOTTOMVIEW, L"", TRUE));
                 m_pwndRibbonStatusBar->AddExtendedElement(apBtnGroupBottom.release(), L"");
@@ -5388,10 +5388,8 @@ LRESULT CBaseView::OnFindDialogMessage(WPARAM wParam, LPARAM /*lParam*/)
             size_t count = 0;
             for (size_t i = 0; i < m_arFindStringLines.size(); ++i)
                 count += m_arFindStringLines[i];
-            CString format;
-            format.LoadString(IDS_FIND_COUNT);
             CString matches;
-            matches.Format(format, count);
+            matches.Format(IDS_FIND_COUNT, count);
             m_pFindDialog->SetStatusText(matches);
         }
         else if ((CFindDlg::FindType)wParam == CFindDlg::FindType::Replace)
