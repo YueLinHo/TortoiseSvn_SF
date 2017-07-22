@@ -93,7 +93,7 @@
               </try>
               <catch>
                 <sleep minutes="1" />
-                <exec program="${signtool}">
+                <exec program="${signtool}" failonerror="${devrelease != '-dev'}">
                   <arg value="sign" />
                   <arg value="${signinfo}" />
                   <arg value="${filename}" />
@@ -150,7 +150,7 @@
           </try>
           <catch>
             <sleep minutes="1" />
-            <exec program="${signtool}">
+            <exec program="${signtool}" failonerror="${devrelease != '-dev'}">
               <arg value="sign" />
               <arg value="${signinfo}" />
               <arg value="..\..\bin\${msifilename}.msi" />
