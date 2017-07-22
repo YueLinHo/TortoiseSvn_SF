@@ -4,6 +4,10 @@
 	bare = false
 	logallrefupdates = true
 	autocrlf = false
+[fetch]
+	prune = true
+[tgit]
+	icon = src/Resources/Library.ico
 [submodule "ext/apr"]
 	url = https://github.com/YueLinHo/apr.git
 [submodule "ext/apr-util"]
@@ -543,3 +547,6 @@
 [branch "tags/version-1.9.5"]
 	remote = yhub
 	merge = refs/heads/tags/version-1.9.5
+[branch "tags/version-1.9.6"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.9.6
