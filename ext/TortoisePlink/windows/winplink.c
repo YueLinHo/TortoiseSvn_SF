@@ -111,7 +111,6 @@ void cmdline_error(const char *p, ...)
 HANDLE inhandle, outhandle, errhandle;
 struct handle *stdin_handle, *stdout_handle, *stderr_handle;
 DWORD orig_console_mode;
-int connopen;
 
 WSAEVENT netevent;
 
@@ -297,7 +296,7 @@ int stdin_gotdata(struct handle *h, void *data, int len)
 	cleanup_exit(0);
     }
     noise_ultralight(len);
-    if (connopen && back->connected(backhandle)) {
+    if (back->connected(backhandle)) {
 	if (len > 0) {
 	    return back->send(backhandle, data, len);
 	} else {
@@ -324,7 +323,7 @@ void stdouterr_sent(struct handle *h, int new_backlog)
 		(h == stdout_handle ? "output" : "error"), buf);
 	cleanup_exit(0);
     }
-    if (connopen && back->connected(backhandle)) {
+    if (back->connected(backhandle)) {
 	back->unthrottle(backhandle, (handle_backlog(stdout_handle) +
 				      handle_backlog(stderr_handle)));
     }
@@ -376,7 +375,7 @@ int main(int argc, char **argv)
 					    1, conf);
 	    if (ret == -2) {
 		fprintf(stderr,
-            "tortoiseplink: option \"%s\" requires an argument\n", p);
+            "TortoisePlink: option \"%s\" requires an argument\n", p);
 		errors = 1;
 	    } else if (ret == 2) {
 		--argc, ++argv;
@@ -397,7 +396,7 @@ int main(int argc, char **argv)
 	    } else if (!strcmp(p, "-shareexists")) {
                 just_test_share_exists = TRUE;
 	    } else {
-        fprintf(stderr, "tortoiseplink: unknown option \"%s\"\n", p);
+        fprintf(stderr, "TortoisePlink: unknown option \"%s\"\n", p);
 		errors = 1;
 	    }
 	} else if (*p) {
@@ -675,11 +674,10 @@ int main(int argc, char **argv)
 	if (error) {
 	    fprintf(stderr, "Unable to open connection:\n%s", error);
 	    return 1;
+	}
+	back->provide_logctx(backhandle, logctx);
+	sfree(realhost);
     }
-    back->provide_logctx(backhandle, logctx);
-    sfree(realhost);
-    }
-    connopen = 1;
 
     inhandle = GetStdHandle(STD_INPUT_HANDLE);
     outhandle = GetStdHandle(STD_OUTPUT_HANDLE);
@@ -746,7 +744,6 @@ int main(int argc, char **argv)
 	    WSANETWORKEVENTS things;
 	    SOCKET socket;
 	    extern SOCKET first_socket(int *), next_socket(int *);
-	    extern int select_result(WPARAM, LPARAM);
 	    int i, socketstate;
 
 	    /*
@@ -799,7 +796,7 @@ int main(int argc, char **argv)
                             LPARAM lp;
                             int err = things.iErrorCode[eventtypes[e].bit];
                             lp = WSAMAKESELECTREPLY(eventtypes[e].mask, err);
-                            connopen &= select_result(wp, lp);
+                            select_result(wp, lp);
                         }
 		}
 	    }
@@ -827,7 +824,7 @@ int main(int argc, char **argv)
 	if (sending)
 	    handle_unthrottle(stdin_handle, back->sendbuffer(backhandle));
 
-	if ((!connopen || !back->connected(backhandle)) &&
+	if (!back->connected(backhandle) &&
 	    handle_backlog(stdout_handle) + handle_backlog(stderr_handle) == 0)
 	    break;		       /* we closed the connection */
     }
