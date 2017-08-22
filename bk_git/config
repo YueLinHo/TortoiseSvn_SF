@@ -550,3 +550,6 @@
 [branch "tags/version-1.9.6"]
 	remote = yhub
 	merge = refs/heads/tags/version-1.9.6
+[branch "tags/version-1.9.7"]
+	remote = yhub
+	merge = refs/heads/tags/version-1.9.7
